@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prajyot Fulsundar | DevSecOps Engineer · SDET Lead · Cloud Security</title>
+  <meta name="description" content="Prajyot Fulsundar — DevSecOps Engineer with 9+ years experience. Expert in Playwright, Kubernetes security, AWS CI/CD pipeline hardening, SAST/DAST, and shift-left testing." />
+  <meta name="keywords" content="DevSecOps Engineer, SDET Lead, Playwright Security Testing, Kubernetes RBAC, AWS Security, CI/CD Pipeline Security, Shift Left Testing, Semgrep, Snyk, OWASP ZAP, Trivy" />
+  <meta name="author" content="Prajyot Fulsundar" />
+  <meta property="og:title" content="Prajyot Fulsundar | DevSecOps Engineer" />
+  <meta property="og:description" content="9+ years SDET → DevSecOps. Playwright, Snyk, Semgrep, Trivy, OWASP ZAP, Kubernetes, AWS. Top 1% global security talent." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://prajyotfulsundar.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prajyot Fulsundar",
+    "jobTitle": "DevSecOps Engineer",
+    "description": "DevSecOps Engineer with 9+ years of SDET and Application Security expertise",
+    "knowsAbout": ["DevSecOps","Playwright","Kubernetes","Application Security","AWS","CI/CD","SAST","DAST","SCA"]
+  }
+  </script>
+</head>
+<body class="dark-mode" id="top">
+
+  <!-- ── NAVBAR ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#top">⬡ PF<span class="accent">.sec</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#pipeline">Pipeline</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ──────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <div class="hero-terminal" id="heroTerminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">SecureOps Terminal — prajyot@devsecops ~$</span>
+        </div>
+        <div class="terminal-body" id="terminalBody"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> Open to Senior / Lead DevSecOps roles globally
+        </div>
+        <h1 class="hero-name">PRAJYOT<br><span class="accent-text">FULSUNDAR</span></h1>
+        <p class="hero-role">
+          <span class="role-chip">DevSecOps Engineer</span>
+          <span class="role-chip">SDET Lead</span>
+          <span class="role-chip">Cloud Security</span>
+        </p>
+        <p class="hero-desc">
+          9+ years engineering secure, automated software delivery at scale. A rare hybrid combining
+          <strong class="g">deep SDET expertise</strong> with <strong class="b">application security</strong>
+          and <strong class="o">DevSecOps culture</strong> — across FinTech, Healthcare, Telecom & Real Estate.
+        </p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-val">9+</span><span class="stat-lbl">Years Exp</span></div>
+          <div class="stat"><span class="stat-val">95%</span><span class="stat-lbl">Coverage</span></div>
+          <div class="stat"><span class="stat-val">−89%</span><span class="stat-lbl">Vulnerabilities</span></div>
+          <div class="stat"><span class="stat-val">96%</span><span class="stat-lbl">Pipeline Success</span></div>
+        </div>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="assets/file/Prajyot_Fulsundar_Resume.pdf" download class="btn btn-ghost">Download Resume ↓</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span>scroll</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────────────── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 — About</span>
+        <h2 class="section-title">The Hybrid Engineer</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Prajyot Fulsundar</strong>, a <strong>DevSecOps Engineer</strong> who spent 7+ years
+            as an SDET before realizing I was already doing security engineering — testing auth flows,
+            validating APIs, catching timing vulnerabilities. I just wasn't calling it that.
+          </p>
+          <p>
+            That crossover is my superpower. Most security engineers don't know how to write a 
+            Playwright test suite. Most SDETs don't know how to read a CVSS score. I do both —
+            and that combination is genuinely rare in the market.
+          </p>
+          <p>
+            I've worked across <strong>FinTech</strong>, <strong>Healthcare</strong>,
+            <strong>Telecom</strong>, and <strong>Real Estate</strong> domains, building automation
+            frameworks trusted by 40,000+ users and CI/CD security pipelines that blocked critical
+            CVEs from reaching production.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Playwright</span><span class="tag">Semgrep</span>
+            <span class="tag">Snyk</span><span class="tag">Trivy</span>
+            <span class="tag">OWASP ZAP</span><span class="tag">Kubernetes</span>
+            <span class="tag">AWS</span><span class="tag">GitHub Actions</span>
+            <span class="tag">TypeScript</span><span class="tag">Java</span>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="card-icon">🔐</div>
+            <h3>Security First</h3>
+            <p>Shift-left security integrated into every PR via SAST, SCA, DAST, and container scanning.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">🎭</div>
+            <h3>Automation Scale</h3>
+            <p>850+ Playwright tests with parallel sharding. 45 min → 8 min. Zero flakiness policy.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">☸️</div>
+            <h3>Cloud Native</h3>
+            <p>Kubernetes RBAC, OPA Gatekeeper, Falco runtime security across production clusters.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">📊</div>
+            <h3>Data Driven</h3>
+            <p>89% vulnerability reduction. 96% pipeline success rate. Every metric tied to business outcomes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────── -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 — Skills</span>
+        <h2 class="section-title">Technical Arsenal</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-cat-header"><span class="skill-icon">🛡️</span> Security</div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Semgrep (SAST)</span><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Snyk (SCA)</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">OWASP ZAP (DAST)</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Trivy (Container)</span><div class="skill-bar"><div class="skill-fill" style="--pct:87%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">OWASP Top 10</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Falco / OPA</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><span class="skill-icon">🎭</span> Testing</div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Playwright</span><div class="skill-bar"><div class="skill-fill" style="--pct:97%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Cypress</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Selenium WebDriver</span><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Cucumber BDD</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">WebdriverIO</span><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">RestAssured</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><span class="skill-icon">⚙️</span> DevOps</div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">GitHub Actions</span><div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Kubernetes</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Docker</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Jenkins</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Terraform</span><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">ArgoCD / Helm</span><div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><span class="skill-icon">☁️</span> Cloud</div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">AWS IAM / SecurityHub</span><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">AWS GuardDuty</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">CloudWatch / CloudTrail</span><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">TypeScript</span><div class="skill-bar"><div class="skill-fill" style="--pct:93%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Java</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Bash / YAML</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────────────── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 — Experience</span>
+        <h2 class="section-title">9 Years of Impact</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — Present</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <h3>Senior DevSecOps / Automation Lead</h3>
+              <span class="tl-company">[Current Company]</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Architected 6-stage DevSecOps pipeline (Playwright → Semgrep → Snyk → Trivy → OWASP ZAP → ArgoCD) — blocked <strong>3 critical CVEs</strong> from production Q3 2024</li>
+              <li>Reduced production security incidents by <strong>78%</strong> via mandatory security gates on all PRs across 6 microservices</li>
+              <li>Optimized Playwright suite to 850+ tests with parallel sharding — CI time: <strong>45 min → 8 min (−82%)</strong></li>
+              <li>Kubernetes RBAC least-privilege + OPA Gatekeeper enforcement across 4 namespaces — eliminated wildcard bindings</li>
+              <li>Migrated 12 repos from hardcoded credentials to GitHub Secrets + Vault — <strong>zero exposure incidents</strong> since</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Playwright</span><span>Semgrep</span><span>Snyk</span><span>Kubernetes</span><span>ArgoCD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 — 2021</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <h3>QA Automation Lead</h3>
+              <span class="tl-company">[Company B]</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Built hybrid BDD framework (Playwright + Cucumber) for FinTech payment platform — achieved <strong>95% test coverage</strong></li>
+              <li>Integrated Semgrep SAST into Jenkins as mandatory PR gate — caught <strong>34 SQL injection patterns</strong> pre-code-review</li>
+              <li>Led cross-browser automation for 3 product lines (Selenium + TestNG) across Healthcare and Telecom domains</li>
+              <li>Reduced regression cycle: <strong>5 days → 6 hours</strong> through parallel execution and CI/CD integration</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Playwright</span><span>Cucumber BDD</span><span>Selenium</span><span>Jenkins</span><span>FinTech</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2016 — 2018</div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <h3>SDET Engineer</h3>
+              <span class="tl-company">[Company C]</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Built Protractor automation for Angular HealthCare portal — <strong>200K patients</strong>, 99.9% uptime SLA</li>
+              <li>Designed API test framework (RestAssured + Java) covering 300+ endpoints with JSON Schema contract validation</li>
+              <li>Shifted testing left — reduced defect leakage by <strong>65%</strong> in 6 months via early automation adoption</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Protractor</span><span>RestAssured</span><span>Java</span><span>Healthcare</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PIPELINE ───────────────────────────────────────── -->
+  <section id="pipeline" class="section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 — Pipeline</span>
+        <h2 class="section-title">QA → DevSecOps in 6 Stages</h2>
+        <p class="section-sub">Shift-left security: every commit runs tests, security gates, and only deploys when all checks pass.</p>
+      </div>
+      <div class="pipeline-track">
+        <div class="pipeline-stage" data-stage="1">
+          <div class="stage-icon">🎭</div>
+          <div class="stage-info">
+            <div class="stage-name">Playwright E2E</div>
+            <div class="stage-tool">850 tests · 4m 12s</div>
+          </div>
+          <div class="stage-status pass">✓ PASS</div>
+          <div class="stage-detail">850 cross-browser tests (Chrome/Firefox/Safari/Mobile). Parallel sharding across 4 workers. HTML report published to GitHub Pages.</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage" data-stage="2">
+          <div class="stage-icon">🔍</div>
+          <div class="stage-info">
+            <div class="stage-name">Semgrep SAST</div>
+            <div class="stage-tool">p/owasp-top-ten · 1m 48s</div>
+          </div>
+          <div class="stage-status pass">✓ PASS</div>
+          <div class="stage-detail">12,400 lines scanned. 0 critical findings. 2 info-level warnings acknowledged via .semgrepignore policy.</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage" data-stage="3">
+          <div class="stage-icon">🛡️</div>
+          <div class="stage-info">
+            <div class="stage-name">Snyk SCA</div>
+            <div class="stage-tool">847 packages · 2m 05s</div>
+          </div>
+          <div class="stage-status warn">⚠ WARN</div>
+          <div class="stage-detail">847 packages audited. 1 HIGH CVE (CVSS 7.5) flagged. Automated upgrade PR #341 raised. Build continues with policy waiver.</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage" data-stage="4">
+          <div class="stage-icon">🐳</div>
+          <div class="stage-info">
+            <div class="stage-name">Trivy Container</div>
+            <div class="stage-tool">node:20-alpine · 0m 55s</div>
+          </div>
+          <div class="stage-status pass">✓ PASS</div>
+          <div class="stage-detail">node:20-alpine scanned. 0 CRITICAL, 0 HIGH. 3 MEDIUM in OS packages — tracked in security backlog.</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage" data-stage="5">
+          <div class="stage-icon">🌐</div>
+          <div class="stage-info">
+            <div class="stage-name">OWASP ZAP DAST</div>
+            <div class="stage-tool">Full scan · 6m 30s</div>
+          </div>
+          <div class="stage-status pass">✓ PASS</div>
+          <div class="stage-detail">Active scan on staging.myapp.com. 0 HIGH alerts. 1 informational: missing SameSite cookie attribute. Ticket raised.</div>
+        </div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage" data-stage="6">
+          <div class="stage-icon">🚀</div>
+          <div class="stage-info">
+            <div class="stage-name">Deploy via ArgoCD</div>
+            <div class="stage-tool">K8s rolling · 1m 22s</div>
+          </div>
+          <div class="stage-status pass">✓ PASS</div>
+          <div class="stage-detail">Kubernetes rolling update. 3/3 pods healthy. Rollback snapshot created. Slack #releases notified. Lighthouse CI: 96.</div>
+        </div>
+      </div>
+
+      <div class="pipeline-yaml">
+        <div class="yaml-header">
+          <span class="yaml-title">📄 .github/workflows/devsecops-pipeline.yml</span>
+          <button class="copy-btn" id="copyYaml">Copy</button>
+        </div>
+        <pre class="yaml-code" id="yamlCode">name: DevSecOps Pipeline
+on: [push, pull_request]
+
+jobs:
+  playwright-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: npm ci
+      - name: Run Playwright Tests
+        run: npx playwright test --reporter=html
+
+  semgrep-sast:
+    runs-on: ubuntu-latest
+    container: semgrep/semgrep
+    steps:
+      - uses: actions/checkout@v4
+      - run: semgrep ci --config=p/owasp-top-ten
+
+  snyk-sca:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --severity-threshold=high
+
+  trivy-container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: myapp:${{ github.sha }}
+          severity: CRITICAL,HIGH
+          exit-code: 1
+
+  owasp-zap-dast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: zaproxy/action-full-scan@v0.9.0
+        with:
+          target: https://staging.myapp.com
+
+  deploy:
+    needs: [playwright-tests, semgrep-sast, snyk-sca, trivy-container, owasp-zap-dast]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via ArgoCD
+        run: argocd app sync my-app --grpc-web</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ──────────────────────────────────────── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 — Projects</span>
+        <h2 class="section-title">Production Work</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-reveal>
+          <div class="project-header">
+            <span class="project-icon">🔐</span>
+            <div>
+              <h3 class="project-title">DevSecOps Testing Pipeline</h3>
+              <p class="project-sub">Playwright + SAST + SCA + DAST in GitHub Actions</p>
+            </div>
+            <a href="https://github.com/prajyotfulsundar/devsecops-pipeline" target="_blank" class="project-link" aria-label="GitHub">↗</a>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val" style="color:#00ff88">−78%</span><span class="metric-lbl">Security Incidents</span></div>
+            <div class="metric"><span class="metric-val" style="color:#00cfff">850+</span><span class="metric-lbl">Playwright Tests</span></div>
+            <div class="metric"><span class="metric-val" style="color:#ff6b35">3 CVEs</span><span class="metric-lbl">Blocked in Q3 2024</span></div>
+          </div>
+          <p class="project-desc">Architected full DevSecOps pipeline integrating Playwright E2E, Semgrep SAST, Snyk SCA, Trivy container scanning, and OWASP ZAP DAST as mandatory GitHub Actions gates. Reduced CI time from 45 min to 8 min via parallel test sharding.</p>
+          <div class="project-tags">
+            <span>Playwright</span><span>Semgrep</span><span>Snyk</span><span>Trivy</span><span>OWASP ZAP</span><span>GitHub Actions</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-header">
+            <span class="project-icon">☸️</span>
+            <div>
+              <h3 class="project-title">Kubernetes Secure Deployment</h3>
+              <p class="project-sub">Test Gates + RBAC + OPA Gatekeeper + Falco</p>
+            </div>
+            <a href="https://github.com/prajyotfulsundar/kubernetes-security-lab" target="_blank" class="project-link" aria-label="GitHub">↗</a>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val" style="color:#00ff88">0</span><span class="metric-lbl">Bad Releases (8 months)</span></div>
+            <div class="metric"><span class="metric-val" style="color:#00cfff">100%</span><span class="metric-lbl">OPA Enforcement</span></div>
+            <div class="metric"><span class="metric-val" style="color:#ff6b35">2 CVEs</span><span class="metric-lbl">Blocked by Trivy Gate</span></div>
+          </div>
+          <p class="project-desc">Designed test-gated Kubernetes deployment pipeline. Implemented OPA Gatekeeper policies blocking privileged containers across all namespaces. RBAC least-privilege model eliminating wildcard role bindings. Falco runtime threat detection.</p>
+          <div class="project-tags">
+            <span>Kubernetes</span><span>RBAC</span><span>OPA Gatekeeper</span><span>Trivy</span><span>Falco</span><span>ArgoCD</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-reveal>
+          <div class="project-header">
+            <span class="project-icon">☁️</span>
+            <div>
+              <h3 class="project-title">Cloud Security Monitoring</h3>
+              <p class="project-sub">AWS IAM + GuardDuty + CloudWatch + Terraform</p>
+            </div>
+            <a href="https://github.com/prajyotfulsundar/aws-devsecops-monitoring" target="_blank" class="project-link" aria-label="GitHub">↗</a>
+          </div>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val" style="color:#00ff88">90s</span><span class="metric-lbl">IAM Alert Latency</span></div>
+            <div class="metric"><span class="metric-val" style="color:#00cfff">−60%</span><span class="metric-lbl">MTTR Reduction</span></div>
+            <div class="metric"><span class="metric-val" style="color:#ff6b35">5 S3</span><span class="metric-lbl">Misconfigs Blocked</span></div>
+          </div>
+          <p class="project-desc">IAM privilege escalation detection via CloudTrail + CloudWatch alerting in under 90 seconds. GuardDuty + PagerDuty integration reduced MTTR by 60%. Terraform IaC scanning via tfsec blocked 5 misconfigured S3 bucket deployments.</p>
+          <div class="project-tags">
+            <span>AWS IAM</span><span>GuardDuty</span><span>CloudWatch</span><span>Terraform</span><span>tfsec</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INCIDENTS ─────────────────────────────────────── -->
+  <section id="incidents" class="section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">06 — Incidents</span>
+        <h2 class="section-title">Real Incidents Solved</h2>
+        <p class="section-sub">Click any incident to see root cause and remediation.</p>
+      </div>
+      <div class="incidents-list">
+
+        <div class="incident-row" onclick="toggleIncident(this)">
+          <div class="inc-left">
+            <span class="sev-dot critical"></span>
+            <div>
+              <div class="inc-title">INC-001 · CI/CD Pipeline Block: Critical CVE in lodash</div>
+              <div class="inc-tags"><span>SCA</span><span>Snyk</span><span>CI/CD</span></div>
+            </div>
+          </div>
+          <div class="inc-right">
+            <span class="sev-badge critical">CRITICAL</span>
+            <span class="inc-time">2024-11-14</span>
+            <span class="inc-toggle">+</span>
+          </div>
+          <div class="inc-detail">
+            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> Blocked 3 PRs across 2 microservices. Release delayed 4 hours.</div>
+            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Snyk detected CVE-2024-21538 in lodash@4.17.20 (CVSS 9.1). Pipeline halted at SCA stage automatically.</div>
+            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Upgraded lodash to 4.17.21. Added .snyk policy. Pipeline green in 12 minutes.</div>
+          </div>
+        </div>
+
+        <div class="incident-row" onclick="toggleIncident(this)">
+          <div class="inc-left">
+            <span class="sev-dot high"></span>
+            <div>
+              <div class="inc-title">INC-002 · Auth Token Exposed in Playwright CI Logs</div>
+              <div class="inc-tags"><span>Playwright</span><span>Secrets</span><span>SAST</span></div>
+            </div>
+          </div>
+          <div class="inc-right">
+            <span class="sev-badge high">HIGH</span>
+            <span class="inc-time">2024-07-08</span>
+            <span class="inc-toggle">+</span>
+          </div>
+          <div class="inc-detail">
+            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> 12 Playwright tests failed. Bearer token exposed in CI build logs shipped to Datadog.</div>
+            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Auth token hardcoded in Playwright test fixture. Log masking not configured on Datadog shipper.</div>
+            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Tokens migrated to GitHub Secrets. Log masking regex added. Playwright storageState used for auth.</div>
+          </div>
+        </div>
+
+        <div class="incident-row" onclick="toggleIncident(this)">
+          <div class="inc-left">
+            <span class="sev-dot critical"></span>
+            <div>
+              <div class="inc-title">INC-003 · Kubernetes Pod Compromise via Wildcard RBAC</div>
+              <div class="inc-tags"><span>Kubernetes</span><span>RBAC</span><span>OPA</span></div>
+            </div>
+          </div>
+          <div class="inc-right">
+            <span class="sev-badge critical">CRITICAL</span>
+            <span class="inc-time">2024-05-19</span>
+            <span class="inc-toggle">+</span>
+          </div>
+          <div class="inc-detail">
+            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> Privilege escalation to cluster-admin. 2 production namespaces exposed. P0 incident declared.</div>
+            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> ServiceAccount had wildcard verb on all K8s resources. OPA Gatekeeper not enforced pre-deploy.</div>
+            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Least-privilege RBAC applied. OPA Gatekeeper constraints enforced. Trivy added as mandatory pre-deploy gate. Resolved in 14 minutes.</div>
+          </div>
+        </div>
+
+        <div class="incident-row" onclick="toggleIncident(this)">
+          <div class="inc-left">
+            <span class="sev-dot medium"></span>
+            <div>
+              <div class="inc-title">INC-004 · SQL Injection Found via OWASP ZAP DAST</div>
+              <div class="inc-tags"><span>DAST</span><span>OWASP ZAP</span><span>SQL Injection</span></div>
+            </div>
+          </div>
+          <div class="inc-right">
+            <span class="sev-badge medium">MEDIUM</span>
+            <span class="inc-time">2024-03-05</span>
+            <span class="inc-toggle">+</span>
+          </div>
+          <div class="inc-detail">
+            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> P95 API latency spiked to 4.2s. OWASP ZAP active scan found SQL injection in /api/search endpoint.</div>
+            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Raw SQL string concatenation in legacy search handler. DAST not present in pipeline at the time.</div>
+            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Parameterized queries implemented. OWASP ZAP DAST added as mandatory pipeline stage. Playwright perf assertions added.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ─────────────────────────────────── -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">07 — Certifications</span>
+        <h2 class="section-title">Credentials</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card achieved">
+          <div class="cert-badge">🏆</div>
+          <div class="cert-info">
+            <h3>ISTQB Foundation Level</h3>
+            <p>International Software Testing Qualifications Board</p>
+            <span class="cert-status achieved-tag">Achieved</span>
+          </div>
+        </div>
+        <div class="cert-card achieved">
+          <div class="cert-badge">🏆</div>
+          <div class="cert-info">
+            <h3>Playwright Certified Professional</h3>
+            <p>Microsoft / Playwright Community</p>
+            <span class="cert-status achieved-tag">Achieved</span>
+          </div>
+        </div>
+        <div class="cert-card target">
+          <div class="cert-badge">🎯</div>
+          <div class="cert-info">
+            <h3>AWS Certified Security – Specialty</h3>
+            <p>Amazon Web Services</p>
+            <span class="cert-status target-tag">In Progress</span>
+          </div>
+        </div>
+        <div class="cert-card target">
+          <div class="cert-badge">🎯</div>
+          <div class="cert-info">
+            <h3>CKS — Kubernetes Security Specialist</h3>
+            <p>Cloud Native Computing Foundation</p>
+            <span class="cert-status target-tag">Target 2025</span>
+          </div>
+        </div>
+        <div class="cert-card target">
+          <div class="cert-badge">🎯</div>
+          <div class="cert-info">
+            <h3>CDP — Certified DevSecOps Professional</h3>
+            <p>Practical DevSecOps</p>
+            <span class="cert-status target-tag">Target 2025</span>
+          </div>
+        </div>
+        <div class="cert-card target">
+          <div class="cert-badge">🎯</div>
+          <div class="cert-info">
+            <h3>OSCP — Offensive Security</h3>
+            <p>Offensive Security Certified Professional</p>
+            <span class="cert-status target-tag">Target 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────── -->
+  <section id="contact" class="section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">08 — Contact</span>
+        <h2 class="section-title">Let's Build Something Secure</h2>
+        <p class="section-sub">Open to Senior / Lead DevSecOps roles globally. Available for freelance security consulting.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-label">Email</div>
+          <a href="mailto:prajyot@email.com" class="contact-val">prajyot@email.com</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🔗</div>
+          <div class="contact-label">LinkedIn</div>
+          <a href="https://linkedin.com/in/prajyot-fulsundar" target="_blank" class="contact-val">linkedin.com/in/prajyot-fulsundar</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🐙</div>
+          <div class="contact-label">GitHub</div>
+          <a href="https://github.com/prajyotfulsundar" target="_blank" class="contact-val">github.com/prajyotfulsundar</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <div class="contact-label">Location</div>
+          <span class="contact-val">Pune, India · Open to Remote / Relocation</span>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a href="mailto:prajyot@email.com" class="btn btn-primary btn-large">Get In Touch →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">⬡ PF<span class="accent">.sec</span></span>
+        <p>DevSecOps Engineer · Top 1% Global Security Talent<br>SDET + Security Hybrid · Pune, India</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Prajyot Fulsundar. Built with pure HTML/CSS/JS · Hosted on GitHub Pages · Lighthouse 97+
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

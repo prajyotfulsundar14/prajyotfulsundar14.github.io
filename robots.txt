@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prajyotfulsundar.github.io/sitemap.xml
