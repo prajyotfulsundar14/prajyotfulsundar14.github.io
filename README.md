@@ -52,7 +52,7 @@ IAM escalation detection · GuardDuty alerting · Terraform + tfsec IaC security
 
 ## 🔗 Connect
 
-- **LinkedIn:** [linkedin.com/in/prajyot-fulsundar](https://linkedin.com/in/prajyot-fulsundar)
+- **LinkedIn:** [linkedin.com/in/prajyot-fulsundar](https://www.linkedin.com/in/prajyot-fulsundar-b9893b78/) 
 - **Email:** mail2prajyotfulsundar@gmail.com prajyotfulsundar14@gmail.com
 - **Location:** Pune, India · Open to Remote
 
