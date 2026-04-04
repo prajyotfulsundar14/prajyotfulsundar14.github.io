@@ -1,6 +1,6 @@
 # Prajyot Fulsundar — DevSecOps Engineer | SDET Lead | Cloud Security
 
-> 🔐 DevSecOps Engineer with 9+ years experience. Playwright → Kubernetes → AWS CI/CD Security.
+> 🔐 DevSecOps Engineer with 10+ years experience. Playwright → Kubernetes → AWS CI/CD Security.
 
 **Live Portfolio:** [https://prajyotfulsundar.github.io](https://prajyotfulsundar.github.io)
 
@@ -53,8 +53,8 @@ IAM escalation detection · GuardDuty alerting · Terraform + tfsec IaC security
 ## 🔗 Connect
 
 - **LinkedIn:** [linkedin.com/in/prajyot-fulsundar](https://linkedin.com/in/prajyot-fulsundar)
-- **Email:** prajyot@email.com
-- **Location:** Pune, India · Open to Remote / Relocation
+- **Email:** mail2prajyotfulsundar@gmail.com prajyotfulsundar14@gmail.com
+- **Location:** Pune, India · Open to Remote
 
 ---
 
