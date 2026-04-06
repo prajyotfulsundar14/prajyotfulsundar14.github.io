@@ -1,702 +1,1642 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prajyot Fulsundar | DevSecOps Engineer · SDET Lead · Cloud Security</title>
-  <meta name="description" content="Prajyot Fulsundar — DevSecOps Engineer with 10+ years experience. Expert in Playwright, Kubernetes security, AWS CI/CD pipeline hardening, SAST/DAST, and shift-left testing." />
-  <meta name="keywords" content="DevSecOps Engineer, SDET Lead, Playwright Security Testing, Kubernetes RBAC, AWS Security, CI/CD Pipeline Security, Shift Left Testing, Semgrep, Snyk, OWASP ZAP, Trivy" />
-  <meta name="author" content="Prajyot Fulsundar" />
-  <meta property="og:title" content="Prajyot Fulsundar | DevSecOps Engineer" />
-  <meta property="og:description" content="9+ years SDET → DevSecOps. Playwright, Snyk, Semgrep, Trivy, OWASP ZAP, Kubernetes, AWS. Top 1% global security talent." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://prajyotfulsundar.github.io/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Prajyot Fulsundar | Senior DevSecOps & DevOps Engineer | Playwright Expert | GitHub: prajyotfulsundar</title>
+<meta name="description" content="Prajyot Fulsundar — Senior DevSecOps & DevOps Engineer, 11+ years. Playwright expert. GitHub Actions · Kubernetes · AWS · OWASP ZAP · Terraform · ArgoCD. Shift-Left Security Champion. Pune, India. Open to global remote roles."/>
+<meta name="keywords" content="DevSecOps Engineer, DevOps Engineer, Playwright Automation Expert, GitHub Actions Security Pipeline, Kubernetes Security, AWS DevSecOps, Terraform IaC, ArgoCD GitOps, OWASP ZAP, Shift Left Security, Prajyot Fulsundar, Senior DevOps Pune India"/>
+<meta name="author" content="Prajyot Fulsundar"/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://prajyotfulsundar14.github.io/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://prajyotfulsundar14.github.io/"/>
+<meta property="og:title" content="Prajyot Fulsundar | Senior DevSecOps & DevOps Engineer | Playwright Expert"/>
+<meta property="og:description" content="11+ years engineering. DevSecOps · DevOps · Playwright · GitHub Actions · Kubernetes · AWS · Terraform. Open to global roles."/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Prajyot Fulsundar","jobTitle":"Senior DevSecOps & DevOps Engineer","description":"11+ year Senior DevSecOps & DevOps Engineer. Playwright Expert. Shift-Left Security Champion.","url":"https://prajyotfulsundar14.github.io","email":"mail2prajyotfulsundar@gmail.com","telephone":"+91-9890118336","address":{"@type":"PostalAddress","addressLocality":"Pune","addressCountry":"IN"},"sameAs":["https://github.com/prajyotfulsundar","https://linkedin.com/in/prajyotfulsundar"]}</script>
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Prajyot Fulsundar",
-    "jobTitle": "DevSecOps Engineer",
-    "description": "DevSecOps Engineer with 9+ years of SDET and Application Security expertise",
-    "knowsAbout": ["DevSecOps","Playwright","Kubernetes","Application Security","AWS","CI/CD","SAST","DAST","SCA"]
-  }
-  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   PRAJYOT FULSUNDAR — WORLD-CLASS PORTFOLIO v5
+   Single Theme: Deep Teal-Navy (works perfectly light+dark screens)
+   Font: Manrope + JetBrains Mono — crisp on all devices
+═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Single polished colour scheme - deep navy with teal accent */
+  --bg:       #0b1120;
+  --bg1:      #0f1729;
+  --bg2:      #131f35;
+  --sur:      #18273f;
+  --sur2:     #1d2f4a;
+  --bor:      #223450;
+  --bor2:     #2c4368;
+  --bor3:     #375280;
+  
+  --ac:       #14b8a6;   /* teal primary */
+  --ac2:      #0d9488;
+  --ac3:      #2dd4bf;
+  --ac-soft:  rgba(20,184,166,.12);
+
+  --bl:       #3b82f6;   /* blue accent */
+  --bl2:      #2563eb;
+
+  --gr:       #22c55e;   /* green success */
+  --gr2:      #16a34a;
+  --gr-soft:  rgba(34,197,94,.1);
+
+  --am:       #f59e0b;   /* amber warning */
+  --am2:      #d97706;
+  --rd:       #ef4444;   /* red danger */
+  --pu:       #a855f7;   /* purple */
+
+  --txt:      #e2edf8;
+  --txt2:     #7fa8d0;
+  --txt3:     #3d6080;
+
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Manrope', sans-serif;
+
+  --glow:  0 0 40px rgba(20,184,166,.2);
+  --card:  0 4px 24px rgba(0,0,0,.25), 0 1px 0 rgba(255,255,255,.04) inset;
+  --ease:  cubic-bezier(.16,1,.3,1);
+}
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0 }
+html { scroll-behavior:smooth; font-size:18px }  /* Base 18px - larger for readability */
+body {
+  background: var(--bg);
+  color: var(--txt);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  cursor: none;
+}
+a { color:inherit; text-decoration:none }
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width:4px }
+::-webkit-scrollbar-track { background:var(--bg) }
+::-webkit-scrollbar-thumb { background:var(--ac2); border-radius:2px }
+
+/* CURSOR */
+#cr { position:fixed;width:10px;height:10px;background:var(--ac);border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:background .2s,transform .1s;mix-blend-mode:normal }
+#cr-r { position:fixed;width:36px;height:36px;border:1.5px solid rgba(20,184,166,.45);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:width .18s,height .18s }
+
+/* CANVAS */
+canvas#bg { position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5 }
+
+/* BODY BG GRADIENT */
+body::before {
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse 60% 60% at 80% 20%,rgba(20,184,166,.06),transparent),
+             radial-gradient(ellipse 40% 50% at 10% 80%,rgba(59,130,246,.04),transparent);
+}
+
+/* ── NAV ── */
+nav {
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  height:66px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 3rem;
+  background:rgba(11,17,32,.92);
+  backdrop-filter:blur(20px) saturate(180%);
+  border-bottom:1px solid var(--bor);
+}
+.n-brand {
+  font-family:var(--mono);font-size:.95rem;color:var(--ac);
+  display:flex;align-items:center;gap:.55rem;font-weight:700;letter-spacing:-.01em
+}
+.n-live { width:7px;height:7px;border-radius:50%;background:var(--gr);box-shadow:0 0 8px var(--gr);animation:pulse 2s infinite }
+@keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 8px var(--gr)} 50%{opacity:.3;box-shadow:0 0 18px var(--gr)} }
+.n-links { display:flex;gap:2rem;list-style:none }
+.n-links a {
+  font-family:var(--sans);font-size:.82rem;font-weight:600;color:var(--txt2);
+  letter-spacing:.01em;text-transform:uppercase;transition:color .2s;
+  position:relative;padding-bottom:3px;
+}
+.n-links a::after { content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--ac);transition:width .28s }
+.n-links a:hover, .n-links a.active { color:var(--ac) }
+.n-links a:hover::after, .n-links a.active::after { width:100% }
+.n-right { display:flex;align-items:center;gap:1rem }
+.n-avail {
+  font-family:var(--mono);font-size:.7rem;font-weight:600;
+  color:var(--gr);display:flex;align-items:center;gap:.4rem;letter-spacing:.08em;
+}
+.n-avail::before { content:'';width:6px;height:6px;border-radius:50%;background:var(--gr);animation:pulse 2s infinite }
+.n-hire {
+  font-family:var(--sans);font-size:.82rem;font-weight:700;
+  padding:.4rem 1.2rem;background:var(--ac);color:var(--bg);
+  letter-spacing:.02em;transition:all .2s;
+}
+.n-hire:hover { background:var(--ac3);box-shadow:var(--glow);transform:translateY(-1px) }
+
+/* ── HERO ── */
+#home {
+  min-height:100vh;display:grid;grid-template-columns:1.2fr .8fr;
+  gap:4rem;align-items:center;
+  padding:100px 3rem 4rem;position:relative;overflow:hidden;
+}
+.h-grid {
+  position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(20,184,166,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(20,184,166,.05) 1px,transparent 1px);
+  background-size:60px 60px;
+  mask-image:radial-gradient(ellipse 80% 70% at 50% 50%,black 20%,transparent 75%);
+}
+.h-left { position:relative;z-index:1 }
+.h-chip {
+  display:inline-flex;align-items:center;gap:.55rem;
+  font-family:var(--mono);font-size:.75rem;font-weight:600;
+  color:var(--ac);border:1px solid rgba(20,184,166,.3);
+  background:rgba(20,184,166,.08);padding:.32rem 1rem;
+  margin-bottom:1.5rem;text-transform:uppercase;letter-spacing:.12em;
+}
+.h-chip::before { content:'';width:6px;height:6px;border-radius:50%;background:var(--gr);animation:pulse 2s infinite }
+h1.h-name {
+  font-family:var(--sans);font-weight:900;
+  font-size:clamp(3.5rem,7vw,6.5rem);
+  line-height:.92;letter-spacing:-.03em;color:var(--txt);
+  margin-bottom:.5rem;
+}
+h1.h-name .hc { color:var(--ac) }
+.h-title {
+  font-family:var(--sans);font-size:clamp(1.2rem,2.2vw,1.6rem);
+  font-weight:600;color:var(--txt2);margin-bottom:.85rem;min-height:2.2rem;
+}
+.h-typed { color:var(--ac);font-weight:700 }
+.h-cur { display:inline-block;width:2px;height:1.1em;background:var(--ac);vertical-align:text-bottom;animation:blink 1s infinite;margin-left:2px }
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.h-loc {
+  font-family:var(--mono);font-size:.78rem;color:var(--txt3);
+  margin-bottom:1.5rem;display:flex;align-items:center;gap:.5rem;
+}
+.h-bio {
+  font-size:1.05rem;color:var(--txt2);line-height:1.8;
+  max-width:580px;margin-bottom:2rem;font-weight:400;
+}
+.h-bio strong { color:var(--txt);font-weight:700 }
+.h-tags { display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:2rem }
+.htag {
+  font-family:var(--mono);font-size:.7rem;font-weight:500;
+  padding:.3rem .75rem;border:1px solid var(--bor3);color:var(--txt2);
+  text-transform:uppercase;letter-spacing:.06em;transition:all .2s;
+}
+.htag:hover { border-color:var(--ac);color:var(--ac) }
+.h-btns { display:flex;gap:.85rem;flex-wrap:wrap;margin-bottom:2rem }
+.btn {
+  font-family:var(--sans);font-size:.85rem;font-weight:700;
+  letter-spacing:.02em;padding:.8rem 1.75rem;
+  display:inline-flex;align-items:center;gap:.5rem;
+  transition:all .22s;cursor:none;
+}
+.ba { background:var(--ac);color:var(--bg) }
+.ba:hover { background:var(--ac3);transform:translateY(-2px);box-shadow:var(--glow) }
+.bb { background:var(--bl);color:#fff }
+.bb:hover { background:var(--bl2);transform:translateY(-2px);box-shadow:0 0 30px rgba(59,130,246,.35) }
+.bg { background:var(--gr);color:var(--bg) }
+.bg:hover { background:var(--gr2);transform:translateY(-2px);box-shadow:0 0 30px rgba(34,197,94,.35) }
+.bo { background:transparent;color:var(--txt2);border:1.5px solid var(--bor3) }
+.bo:hover { border-color:var(--ac);color:var(--ac);transform:translateY(-2px) }
+.h-social { display:flex;align-items:center;gap:.65rem;padding-top:1.5rem;border-top:1px solid var(--bor) }
+.hs-lbl { font-family:var(--mono);font-size:.62rem;color:var(--txt3);text-transform:uppercase;letter-spacing:.1em;margin-right:.2rem }
+.soc {
+  width:38px;height:38px;border:1.5px solid var(--bor2);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--txt2);font-size:.88rem;transition:all .22s;
+}
+.soc:hover { transform:translateY(-3px);box-shadow:var(--glow) }
+.sli:hover{border-color:#0a66c2;color:#0a66c2}
+.sgh:hover{border-color:var(--txt);color:var(--txt)}
+.stw:hover{border-color:#1d9bf0;color:#1d9bf0}
+.sig:hover{border-color:#e1306c;color:#e1306c}
+.sfb:hover{border-color:#1877f2;color:#1877f2}
+
+/* PROFILE CARD */
+.h-right { position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:1.5rem }
+.p-wrap { position:relative;width:220px;height:220px }
+.p-ring {
+  position:absolute;inset:-10px;border-radius:50%;padding:2.5px;
+  background:conic-gradient(from 0deg,var(--ac),var(--bl),var(--pu),var(--gr),var(--ac));
+  animation:spin 8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.p-ring-inner { background:var(--bg1);border-radius:50%;width:100%;height:100% }
+.p-img {
+  position:absolute;inset:6px;border-radius:50%;
+  background:linear-gradient(135deg,var(--sur),var(--sur2));
+  border:2.5px solid var(--bor2);
+  display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+.p-img img { width:100%;height:100%;object-fit:cover }
+.p-init { font-family:var(--sans);font-weight:900;font-size:4rem;color:var(--ac);line-height:1 }
+.p-chip {
+  position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);
+  background:var(--gr);color:var(--bg);
+  font-family:var(--mono);font-size:.6rem;font-weight:700;
+  padding:.22rem .75rem;white-space:nowrap;letter-spacing:.1em;
+}
+.h-stats { display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;width:100%;max-width:360px }
+.hst {
+  background:var(--sur);border:1px solid var(--bor);
+  padding:1.1rem .85rem;text-align:center;transition:all .28s;
+}
+.hst:hover { border-color:var(--ac);transform:translateY(-3px);box-shadow:var(--card) }
+.hst-n { font-family:var(--sans);font-weight:900;font-size:2.2rem;color:var(--ac);line-height:1 }
+.hst-n.g { color:var(--gr) }.hst-n.a { color:var(--am) }
+.hst-l { font-family:var(--mono);font-size:.58rem;color:var(--txt3);text-transform:uppercase;letter-spacing:.09em;margin-top:.2rem }
+
+/* TERMINAL */
+.h-term {
+  width:100%;max-width:360px;
+  background:var(--bg2);border:1px solid var(--bor);
+  font-family:var(--mono);font-size:.72rem;box-shadow:var(--card);
+}
+.h-term-bar {
+  background:var(--sur);border-bottom:1px solid var(--bor);
+  padding:.5rem .9rem;display:flex;align-items:center;gap:.4rem;
+}
+.td { width:10px;height:10px;border-radius:50% }
+.h-term-body { padding:.9rem;line-height:2 }
+.tok{color:var(--gr)}.twa{color:var(--am)}.ter{color:var(--rd)}.thd{color:var(--ac)}.tdm{color:var(--txt3)}.tp{color:color-mix(in srgb,var(--ac) 60%,var(--bg))}
+.tcur{display:inline-block;width:7px;height:13px;background:var(--ac);vertical-align:text-bottom;animation:blink 1s infinite}
+
+/* TICKER */
+.ticker-w { background:var(--sur);border-top:1px solid var(--bor);border-bottom:1px solid var(--bor);overflow:hidden;padding:.45rem 0 }
+.ticker-t { display:flex;white-space:nowrap;animation:tk 55s linear infinite }
+.ticker-t:hover { animation-play-state:paused }
+.ti { font-family:var(--mono);font-size:.68rem;padding:0 2rem;display:inline-flex;align-items:center;gap:.6rem;color:var(--txt2) }
+.tt { color:var(--ac);font-weight:600 }
+.ts { color:var(--bor3);margin:0 .35rem }
+@keyframes tk { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+/* ── SECTION BASE ── */
+section { padding:6rem 3rem;position:relative;z-index:1 }
+.si { max-width:1200px;margin:0 auto }
+.s-eye {
+  font-family:var(--mono);font-size:.72rem;font-weight:600;
+  color:var(--ac);text-transform:uppercase;letter-spacing:.2em;
+  display:flex;align-items:center;gap:.7rem;margin-bottom:.75rem;
+}
+.s-eye::before { content:'//';opacity:.4 }
+.s-ttl {
+  font-family:var(--sans);font-weight:900;
+  font-size:clamp(2.4rem,5vw,3.8rem);line-height:.95;
+  color:var(--txt);margin-bottom:.75rem;letter-spacing:-.025em;
+}
+.s-ttl .c { color:var(--ac) }.s-ttl .g { color:var(--gr) }.s-ttl .b { color:var(--bl) }
+.s-sub { font-size:1.05rem;color:var(--txt2);line-height:1.75;max-width:660px }
+.div { height:1px;background:linear-gradient(90deg,transparent,var(--bor2) 30%,var(--bor2) 70%,transparent) }
+
+/* REVEAL */
+.rv { opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease) }
+.rv.in { opacity:1;transform:none }
+.rl { opacity:0;transform:translateX(-26px);transition:opacity .65s var(--ease),transform .65s var(--ease) }
+.rl.in { opacity:1;transform:none }
+.rr { opacity:0;transform:translateX(26px);transition:opacity .65s var(--ease),transform .65s var(--ease) }
+.rr.in { opacity:1;transform:none }
+.d1{transition-delay:.07s}.d2{transition-delay:.15s}.d3{transition-delay:.23s}.d4{transition-delay:.31s}.d5{transition-delay:.39s}
+
+/* PILLS */
+.pl { font-family:var(--mono);font-size:.6rem;font-weight:600;padding:.14rem .5rem;border:1px solid;text-transform:uppercase;letter-spacing:.04em }
+.pa { color:var(--ac);border-color:rgba(20,184,166,.3);background:rgba(20,184,166,.07) }
+.pg { color:var(--gr);border-color:rgba(34,197,94,.28);background:rgba(34,197,94,.07) }
+.pb { color:var(--bl);border-color:rgba(59,130,246,.3);background:rgba(59,130,246,.07) }
+.pam { color:var(--am);border-color:rgba(245,158,11,.3);background:rgba(245,158,11,.07) }
+.pr { color:var(--rd);border-color:rgba(239,68,68,.3);background:rgba(239,68,68,.07) }
+.pp { color:var(--pu);border-color:rgba(168,85,247,.3);background:rgba(168,85,247,.07) }
+
+/* ── ABOUT ── */
+#about { background:var(--bg1) }
+.ab-grid { display:grid;grid-template-columns:1.1fr .9fr;gap:4rem;margin-top:3rem;align-items:start }
+.ab-p { font-size:1rem;color:var(--txt2);line-height:1.85;margin-bottom:1.1rem }
+.ab-p strong { color:var(--txt);font-weight:700 }
+.ab-stats { display:grid;grid-template-columns:repeat(4,1fr);gap:.85rem;margin-top:2rem }
+.as { background:var(--sur);border:1px solid var(--bor);padding:1.35rem 1rem;text-align:center;transition:all .28s }
+.as:hover { border-color:var(--ac);transform:translateY(-4px);box-shadow:var(--card) }
+.as-n { font-family:var(--sans);font-weight:900;font-size:2rem;color:var(--ac);line-height:1 }
+.as-n.g{color:var(--gr)}.as-n.a{color:var(--am)}.as-n.p{color:var(--pu)}
+.as-l { font-family:var(--mono);font-size:.6rem;color:var(--txt3);text-transform:uppercase;letter-spacing:.09em;margin-top:.2rem }
+.dom-list { display:flex;flex-direction:column;gap:.65rem }
+.dom {
+  display:flex;align-items:center;gap:1rem;padding:1rem 1.2rem;
+  background:var(--sur);border:1px solid var(--bor);
+  border-left:3px solid var(--ac);transition:all .25s;
+}
+.dom:hover { transform:translateX(5px);box-shadow:var(--card) }
+.dom-ic { font-size:1.35rem;flex-shrink:0 }
+.dom-n { font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt) }
+.dom-s { font-family:var(--mono);font-size:.65rem;color:var(--txt3);margin-top:.08rem }
+
+/* ── EXPERIENCE ── */
+#experience { background:var(--bg) }
+.ex-list { margin-top:3.5rem;position:relative;display:flex;flex-direction:column;gap:2.5rem }
+.ex-list::before { content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--ac),var(--bl),var(--am),transparent) }
+.ex-b { padding-left:2.5rem;position:relative }
+.ex-b::before { content:'';position:absolute;left:-5px;top:1.8rem;width:12px;height:12px;border-radius:50%;background:var(--ac);box-shadow:0 0 14px var(--ac);border:3px solid var(--bg) }
+.ex-b:nth-child(2)::before { background:var(--bl);box-shadow:0 0 14px var(--bl) }
+.ex-b:nth-child(3)::before { background:var(--am);box-shadow:0 0 14px var(--am) }
+.ex-card { background:var(--sur);border:1px solid var(--bor);border-left:3px solid var(--ac);padding:2.5rem;transition:all .28s }
+.ex-b:nth-child(2) .ex-card { border-left-color:var(--bl) }
+.ex-b:nth-child(3) .ex-card { border-left-color:var(--am) }
+.ex-card:hover { border-color:var(--bor3);box-shadow:var(--card) }
+.ex-top { display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.75rem;margin-bottom:1.25rem }
+.ex-role { font-family:var(--sans);font-weight:800;font-size:1.3rem;color:var(--txt);margin-bottom:.25rem;letter-spacing:-.02em }
+.ex-co { font-family:var(--mono);font-size:.78rem;color:var(--ac);font-weight:600 }
+.ex-cli { font-family:var(--mono);font-size:.68rem;color:var(--txt3);margin-top:.1rem }
+.ex-pr { text-align:right }
+.ex-dt { font-family:var(--mono);font-size:.72rem;color:var(--txt3) }
+.ex-du { font-family:var(--mono);font-size:.7rem;color:var(--gr);margin-top:.15rem;font-weight:600 }
+.ex-wins { display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.4rem }
+.win {
+  font-family:var(--mono);font-size:.65rem;font-weight:600;
+  padding:.28rem .75rem;border:1px solid rgba(34,197,94,.28);
+  color:var(--gr);background:rgba(34,197,94,.07);
+  display:flex;align-items:center;gap:.35rem;
+}
+.win::before { content:'✓' }
+.ex-pts { list-style:none;display:flex;flex-direction:column;gap:.55rem }
+.ex-pts li { font-size:.98rem;color:var(--txt2);padding-left:1.4rem;position:relative;line-height:1.7 }
+.ex-pts li::before { content:'▸';position:absolute;left:0;color:var(--ac);font-size:.78rem;top:.1em }
+.ex-pts li strong { color:var(--txt);font-weight:700 }
+.ex-tags { display:flex;flex-wrap:wrap;gap:.32rem;margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid var(--bor) }
+
+/* ── CLIENTS ── */
+#clients { background:var(--bg1) }
+.cli-grid { display:grid;grid-template-columns:repeat(4,1fr);gap:1.35rem;margin-top:2.5rem }
+.cli { background:var(--sur);border:1px solid var(--bor);padding:1.75rem 1.25rem;text-align:center;transition:all .28s;display:flex;flex-direction:column;align-items:center;gap:.85rem }
+.cli:hover { border-color:var(--ac);transform:translateY(-5px);box-shadow:var(--card) }
+.cli-logo { width:60px;height:60px;border-radius:12px;overflow:hidden;background:var(--bg2);border:1px solid var(--bor2);display:flex;align-items:center;justify-content:center;font-size:1.6rem }
+.cli-logo img { width:100%;height:100%;object-fit:contain }
+.cli-name { font-family:var(--sans);font-weight:700;font-size:.95rem;color:var(--txt) }
+.cli-role { font-family:var(--mono);font-size:.62rem;color:var(--txt3);margin-top:-.3rem }
+
+/* ── SKILLS ── */
+#skills { background:var(--bg) }
+.sk-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem }
+.sk {
+  background:var(--sur);border:1px solid var(--bor);
+  padding:2rem;transition:all .32s;position:relative;overflow:hidden;
+}
+.sk::before { content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--ac);transform:scaleX(0);transform-origin:left;transition:transform .38s }
+.sk:hover { border-color:var(--bor3);transform:translateY(-6px);box-shadow:var(--card) }
+.sk:hover::before { transform:scaleX(1) }
+.sk.g::before{background:var(--gr)}.sk.b::before{background:var(--bl)}.sk.a::before{background:var(--am)}.sk.p::before{background:var(--pu)}
+.sk-ic { font-size:1.85rem;margin-bottom:.8rem }
+.sk-nm { font-family:var(--sans);font-weight:800;font-size:1.2rem;color:var(--txt);margin-bottom:.2rem;letter-spacing:-.01em }
+.sk-sb { font-family:var(--mono);font-size:.65rem;color:var(--txt3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1.2rem }
+.sk-tags { display:flex;flex-wrap:wrap;gap:.35rem }
+.stg {
+  font-family:var(--sans);font-size:.78rem;font-weight:600;
+  padding:.28rem .65rem;border:1px solid var(--bor2);color:var(--txt2);
+  transition:all .18s;
+}
+.stg:hover { border-color:var(--ac);color:var(--ac) }
+
+/* ── PROJECTS ── */
+#projects { background:var(--bg1) }
+.pf-row { display:flex;gap:.55rem;margin-bottom:2rem;flex-wrap:wrap }
+.pfb {
+  font-family:var(--mono);font-size:.68rem;font-weight:600;
+  padding:.35rem .95rem;border:1px solid var(--bor2);color:var(--txt2);
+  text-transform:uppercase;letter-spacing:.07em;cursor:none;transition:all .2s;
+}
+.pfb.on, .pfb:hover { border-color:var(--ac);color:var(--ac);background:rgba(20,184,166,.08) }
+.pj-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem }
+.pj { background:var(--sur);border:1px solid var(--bor);padding:1.85rem;position:relative;overflow:hidden;transition:all .28s }
+.pj::after { content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--ac),transparent);transform:scaleX(0);transition:transform .28s }
+.pj:hover { transform:translateY(-5px);border-color:var(--bor3);box-shadow:var(--card) }
+.pj:hover::after { transform:scaleX(1) }
+.pj-badge { position:absolute;top:1.2rem;right:1.2rem;font-family:var(--mono);font-size:.55rem;font-weight:700;padding:.12rem .45rem;letter-spacing:.08em }
+.pfl{color:var(--ac);border:1px solid rgba(20,184,166,.3);background:rgba(20,184,166,.08)}
+.pnw{color:var(--gr);border:1px solid rgba(34,197,94,.3);background:rgba(34,197,94,.08)}
+.pcs{color:var(--am);border:1px solid rgba(245,158,11,.3);background:rgba(245,158,11,.08)}
+.pj-ic { font-size:1.75rem;margin-bottom:.9rem }
+.pj-nm { font-family:var(--mono);font-size:.9rem;font-weight:600;color:var(--ac);margin-bottom:.75rem }
+.pj-desc { font-size:.92rem;color:var(--txt2);line-height:1.7;margin-bottom:1rem }
+.pj-meta { background:var(--bg2);border:1px solid var(--bor);padding:.9rem;margin-bottom:1rem;font-family:var(--mono);font-size:.68rem;line-height:1.8 }
+.pj-mets { display:flex;gap:.5rem;margin-bottom:1rem }
+.pm { flex:1;border:1px solid var(--bor);padding:.5rem .4rem;text-align:center }
+.pm-v { font-family:var(--sans);font-weight:900;font-size:1.1rem;color:var(--gr);line-height:1 }
+.pm-k { font-family:var(--mono);font-size:.52rem;color:var(--txt3);text-transform:uppercase;margin-top:.12rem }
+.pj-stack { display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.9rem }
+.pj-lnks { display:flex;gap:.5rem }
+.pjl {
+  font-family:var(--mono);font-size:.66rem;font-weight:600;color:var(--txt2);
+  border:1px solid var(--bor2);padding:.3rem .75rem;
+  display:inline-flex;align-items:center;gap:.4rem;transition:all .2s;
+}
+.pjl:hover { border-color:var(--ac);color:var(--ac) }
+
+/* ── VULNERABILITIES ── */
+#vulns { background:var(--bg) }
+.vul-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1.35rem;margin-top:2.5rem }
+.vul { background:var(--sur);border:1px solid var(--bor);padding:1.75rem;transition:all .28s;position:relative }
+.vul:hover { border-color:var(--bor3);transform:translateY(-4px);box-shadow:var(--card) }
+.vul-top { display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem }
+.vul-sev { font-family:var(--mono);font-size:.62rem;font-weight:700;padding:.18rem .6rem;border:1px solid;text-transform:uppercase;letter-spacing:.08em }
+.vc{color:var(--rd);border-color:rgba(239,68,68,.35);background:rgba(239,68,68,.08)}
+.vh{color:var(--am);border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.08)}
+.vm{color:var(--ac);border-color:rgba(20,184,166,.35);background:rgba(20,184,166,.08)}
+.vul-cvss { font-family:var(--mono);font-size:.65rem;font-weight:700;color:var(--txt2) }
+.vul-nm { font-family:var(--sans);font-weight:800;font-size:1.05rem;color:var(--txt);margin-bottom:.35rem;letter-spacing:-.01em }
+.vul-vec { font-family:var(--mono);font-size:.58rem;color:var(--txt3);margin-bottom:.75rem }
+.vul-ds { font-size:.92rem;color:var(--txt2);line-height:1.65;margin-bottom:.9rem }
+.vul-how { font-family:var(--mono);font-size:.65rem;color:var(--ac);margin-bottom:.75rem }
+.vul-tags { display:flex;flex-wrap:wrap;gap:.3rem }
+
+/* ── RESUME ── */
+#resume { background:var(--bg1) }
+.res-layout { display:grid;grid-template-columns:1fr 1fr;gap:4rem;margin-top:3rem }
+.res-col h3 { font-family:var(--sans);font-weight:800;font-size:1.2rem;color:var(--txt);margin-bottom:1.5rem;padding-bottom:.75rem;border-bottom:2px solid var(--ac);letter-spacing:-.01em }
+.res-item { margin-bottom:1.5rem;padding-left:1.25rem;border-left:2px solid var(--bor2) }
+.res-item:hover { border-color:var(--ac) }
+.res-yr { font-family:var(--mono);font-size:.68rem;color:var(--ac);font-weight:600;margin-bottom:.25rem }
+.res-ttl { font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt);margin-bottom:.15rem }
+.res-sub { font-family:var(--mono);font-size:.7rem;color:var(--txt3);margin-bottom:.35rem }
+.res-desc { font-size:.9rem;color:var(--txt2);line-height:1.65 }
+.res-skills-grid { display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem }
+.rsk-cat { font-family:var(--mono);font-size:.68rem;font-weight:700;color:var(--ac);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem }
+.rsk-items { display:flex;flex-direction:column;gap:.3rem }
+.rsk-item { font-size:.9rem;color:var(--txt2);display:flex;align-items:center;gap:.5rem }
+.rsk-item::before { content:'▸';color:var(--ac);font-size:.7rem;flex-shrink:0 }
+.res-dl { display:flex;gap:.85rem;margin-top:2.5rem;flex-wrap:wrap }
+
+/* ── RECOMMENDATIONS ── */
+#recs { background:var(--bg) }
+.rec-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem }
+.rec { background:var(--sur);border:1px solid var(--bor);padding:2.25rem;position:relative;transition:all .28s;overflow:hidden }
+.rec::before { content:'"';position:absolute;top:.5rem;left:1.35rem;font-size:4rem;color:rgba(20,184,166,.1);font-family:Georgia,serif;line-height:1 }
+.rec:hover { border-color:var(--bor3);transform:translateY(-4px);box-shadow:var(--card) }
+.rec-stars { color:var(--am);font-size:.85rem;margin-bottom:1rem;margin-top:.25rem }
+.rec-txt { font-size:.95rem;color:var(--txt2);line-height:1.8;font-style:italic;margin-bottom:1.35rem;position:relative;z-index:1 }
+.rec-aut { display:flex;align-items:center;gap:.95rem;padding-top:1.1rem;border-top:1px solid var(--bor) }
+.rec-av { width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--ac),var(--bl));display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:800;font-size:1rem;color:var(--bg);flex-shrink:0 }
+.rec-nm { font-family:var(--sans);font-weight:700;font-size:.95rem;color:var(--txt) }
+.rec-ro { font-family:var(--mono);font-size:.62rem;color:var(--txt3);margin-top:.05rem }
+.rec-co { font-family:var(--mono);font-size:.6rem;color:var(--ac);margin-top:.04rem }
+
+/* ── CERTIFICATIONS ── */
+#certs { background:var(--bg1) }
+.cert-grid { display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;margin-top:3rem }
+.cg-lbl { font-family:var(--mono);font-size:.7rem;font-weight:700;color:var(--txt3);text-transform:uppercase;letter-spacing:.15em;padding-bottom:.7rem;border-bottom:1px solid var(--bor);margin-bottom:1.25rem }
+.cert { display:flex;align-items:center;gap:1.1rem;padding:1rem;border:1px solid transparent;margin-bottom:.6rem;transition:all .22s }
+.cert:hover { background:rgba(20,184,166,.03);border-color:var(--bor) }
+.c-logo { width:60px;height:60px;flex-shrink:0;border-radius:10px;border:1px solid var(--bor2);background:var(--sur);display:flex;align-items:center;justify-content:center;overflow:hidden }
+.c-logo img { width:100%;height:100%;object-fit:contain;padding:5px }
+.c-txt-logo { font-family:var(--sans);font-weight:900;font-size:.7rem;text-align:center;line-height:1.3;padding:5px }
+.c-info { flex:1 }
+.c-nm { font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt);line-height:1.3 }
+.c-iss { font-family:var(--mono);font-size:.65rem;color:var(--txt3);margin-top:.1rem }
+.c-badge { font-family:var(--mono);font-size:.62rem;font-weight:700;padding:.15rem .6rem;border:1px solid;letter-spacing:.06em;white-space:nowrap;flex-shrink:0 }
+.cb-prog{color:var(--am);border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.08)}
+.cb-plan{color:var(--ac);border-color:rgba(20,184,166,.35);background:rgba(20,184,166,.08)}
+.cb-fut{color:var(--pu);border-color:rgba(168,85,247,.35);background:rgba(168,85,247,.08)}
+.cb-done{color:var(--gr);border-color:rgba(34,197,94,.35);background:rgba(34,197,94,.08)}
+
+/* ── PIPELINE ── */
+#pipeline { background:var(--bg) }
+.pipe-s { overflow-x:auto;padding-bottom:1rem;margin-top:3rem }
+.pipe-t { display:flex;min-width:1050px }
+.ps { flex:1;background:var(--sur);border:1px solid var(--bor);padding:1.5rem 1.1rem;position:relative;transition:all .28s }
+.ps::after { content:'›';position:absolute;right:-13px;top:50%;transform:translateY(-50%);color:var(--ac);font-size:1.25rem;z-index:10;background:var(--bg);padding:0 2px;line-height:1 }
+.ps:last-child::after { display:none }
+.ps:hover { border-color:var(--ac);background:rgba(20,184,166,.04);transform:translateY(-5px);z-index:2;box-shadow:var(--card) }
+.ps-n { font-family:var(--mono);font-size:.58rem;color:var(--txt3);margin-bottom:.45rem }
+.ps-nm { font-family:var(--sans);font-weight:800;font-size:.92rem;color:var(--ac);margin-bottom:.6rem }
+.ps-tools { display:flex;flex-wrap:wrap;gap:.28rem;margin-bottom:.55rem }
+.ps-ds { font-size:.78rem;color:var(--txt3);line-height:1.5 }
+.ps-r { font-family:var(--mono);font-size:.62rem;margin-top:.55rem;padding:.25rem .55rem;border-left:2px solid var(--gr);color:var(--gr);background:rgba(34,197,94,.06) }
+.ps-r.w { border-color:var(--am);color:var(--am);background:rgba(245,158,11,.06) }
+.ps-r.e { border-color:var(--rd);color:var(--rd);background:rgba(239,68,68,.06) }
+
+/* ── CONTACT ── */
+#contact { background:var(--bg1) }
+.con-grid { display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;margin-top:3rem }
+.con-box { background:var(--sur);border:1px solid var(--bor);padding:2.75rem;position:relative;overflow:hidden }
+.con-box::before { content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--ac),var(--bl),var(--gr)) }
+.ci { display:flex;align-items:center;gap:1rem;padding:.95rem;border:1px solid var(--bor);text-decoration:none;transition:all .22s;margin-bottom:.65rem }
+.ci:hover { border-color:var(--ac);background:rgba(20,184,166,.04) }
+.ci-ic { width:28px;text-align:center;color:var(--ac);font-size:1rem;flex-shrink:0 }
+.ci-lb { font-family:var(--mono);font-size:.62rem;font-weight:600;color:var(--txt3);text-transform:uppercase;letter-spacing:.1em }
+.ci-vl { font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--txt);margin-top:.07rem }
+.con-r { display:flex;flex-direction:column;gap:1.5rem }
+.avail-box {
+  background:rgba(34,197,94,.07);border:1px solid rgba(34,197,94,.25);
+  border-left:3px solid var(--gr);padding:1.35rem 1.5rem;
+  display:flex;align-items:flex-start;gap:1rem;
+}
+.av-dot { width:9px;height:9px;border-radius:50%;background:var(--gr);box-shadow:0 0 10px var(--gr);flex-shrink:0;margin-top:.25rem;animation:pulse 2s infinite }
+.av-t { font-family:var(--mono);font-size:.75rem;font-weight:600;color:var(--gr);line-height:1.7 }
+.av-t span { color:var(--txt2) }
+.tgt-box { background:var(--sur);border:1px solid var(--bor);padding:1.75rem }
+.tgt-lb { font-family:var(--mono);font-size:.68rem;font-weight:700;color:var(--ac);text-transform:uppercase;letter-spacing:.12em;margin-bottom:.95rem }
+.tgt-list { list-style:none;display:flex;flex-direction:column;gap:.55rem }
+.tgt-list li { font-size:.95rem;color:var(--txt2);padding-left:1.25rem;position:relative;line-height:1.6 }
+.tgt-list li::before { content:'▸';position:absolute;left:0;color:var(--ac);font-size:.75rem;top:.1em }
+.soc-row { display:flex;gap:.65rem;flex-wrap:wrap;margin-top:.5rem }
+
+/* FOOTER */
+footer { background:var(--bg2);border-top:1px solid var(--bor);padding:1.75rem 3rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.85rem }
+.ft-l { font-family:var(--mono);font-size:.68rem;color:var(--txt3) }
+.ft-l .c { color:var(--ac);font-weight:600 }
+.ft-r { display:flex;gap:1.75rem }
+.ft-r a { font-family:var(--mono);font-size:.68rem;color:var(--txt3);transition:color .2s }
+.ft-r a:hover { color:var(--ac) }
+
+/* RESPONSIVE */
+@media(max-width:1100px){
+  #home{grid-template-columns:1fr;gap:3rem}
+  .h-right{align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:1.25rem}
+  .sk-grid,.pj-grid,.rec-grid,.vul-grid{grid-template-columns:1fr 1fr}
+  .ab-grid{grid-template-columns:1fr}
+  .ab-stats{grid-template-columns:repeat(2,1fr)}
+  .res-layout{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  html{font-size:16px}
+  #home{padding:80px 1.5rem 2.5rem}
+  section{padding:4rem 1.5rem}
+  nav{padding:0 1.25rem}
+  .n-links{display:none}
+  .sk-grid,.pj-grid,.rec-grid,.vul-grid,.cert-grid,.con-grid,.cli-grid{grid-template-columns:1fr}
+  footer{flex-direction:column;text-align:center}
+  #cr,#cr-r{display:none}
+  body{cursor:auto}
+}
+</style>
 </head>
-<body class="dark-mode" id="top">
+<body>
 
-  <!-- ── NAVBAR ─────────────────────────────────────────── -->
-  <nav id="navbar">
-    <div class="nav-inner">
-      <a class="nav-logo" href="#top">⬡ PF<span class="accent">.sec</span></a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#pipeline">Pipeline</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certs</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
-        <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+<div id="cr"></div>
+<div id="cr-r"></div>
+<canvas id="bg"></canvas>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="n-brand"><div class="n-live"></div>Prajyot Fulsundar</div>
+  <ul class="n-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#vulns">Findings</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#recs">Reviews</a></li>
+    <li><a href="#certs">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="n-right">
+    <div class="n-avail">Open to Work</div>
+    <a href="mailto:mail2prajyotfulsundar@gmail.com" class="n-hire">Hire Me</a>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="home">
+  <div class="h-grid"></div>
+  <div class="h-left">
+    <div class="h-chip">Senior DevSecOps &amp; DevOps Engineer · Pune, India</div>
+    <h1 class="h-name">PRAJYOT<br><span class="hc">FULSUNDAR</span></h1>
+    <p class="h-title"><span class="h-typed" id="typed-txt">DevSecOps Engineer</span><span class="h-cur"></span></p>
+    <p class="h-loc"><i class="fa-solid fa-location-dot" style="color:var(--ac)"></i>&nbsp;Pune, Maharashtra, India &nbsp;·&nbsp; Remote / Relocation Ready</p>
+    <p class="h-bio">
+      <strong>11+ years</strong> of engineering excellence — <strong>8+ years</strong> elite QA Automation leadership + <strong>2+ years</strong> hands-on DevSecOps &amp; DevOps engineering. Built 7-stage security pipelines blocking 3 Critical CVEs, automated OWASP Top 10 suites, architected GitOps platforms on AWS EKS. <strong>Expert Playwright + TypeScript framework architect</strong>. Salary target: ₹40–60L+ or $80K–120K globally.
+    </p>
+    <div class="h-tags">
+      <span class="htag">Shift-Left Security</span><span class="htag">OWASP Top 10</span>
+      <span class="htag">Playwright ★ Expert</span><span class="htag">GitHub Actions</span>
+      <span class="htag">Kubernetes + ArgoCD</span><span class="htag">AWS + Terraform</span>
+      <span class="htag">Docker + Helm</span><span class="htag">Prometheus + Grafana</span>
+    </div>
+    <div class="h-btns">
+      <a href="https://github.com/prajyotfulsundar" class="btn ba" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub Portfolio</a>
+      <a href="https://linkedin.com/in/prajyotfulsundar" class="btn bg" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="#resume" class="btn bb"><i class="fa-solid fa-file-lines"></i> View Resume</a>
+      <a href="mailto:mail2prajyotfulsundar@gmail.com" class="btn bo"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </div>
+    <div class="h-social">
+      <span class="hs-lbl">Connect</span>
+      <a class="soc sli" href="https://linkedin.com/in/prajyot-fulsundar" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a class="soc sgh" href="https://github.com/prajyotfulsundar14" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+      <a class="soc stw" href="https://twitter.com/prajyotfulsundar" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+      <a class="soc sig" href="https://instagram.com/prajyotfulsundar" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+      <a class="soc sfb" href="https://facebook.com/prajyotfulsundar" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+    </div>
+  </div>
+  <div class="h-right">
+    <div class="p-wrap">
+      <div class="p-ring"><div class="p-ring-inner"></div></div>
+      <div class="p-img"><div class="p-init">PF</div></div>
+      <div class="p-chip">AVAILABLE NOW</div>
+    </div>
+    <div class="h-stats">
+      <div class="hst"><div class="hst-n" data-count="11">0</div><div class="hst-l">Years Total</div></div>
+      <div class="hst"><div class="hst-n g" data-count="8">0</div><div class="hst-l">Yrs QA/Auto</div></div>
+      <div class="hst"><div class="hst-n a" data-count="2">0</div><div class="hst-l">Yrs DevSecOps</div></div>
+    </div>
+    <div class="h-term">
+      <div class="h-term-bar">
+        <div class="td" style="background:#ff5f57"></div>
+        <div class="td" style="background:#febc2e"></div>
+        <div class="td" style="background:#28c840"></div>
+      </div>
+      <div class="h-term-body">
+        <span class="tdm"># Production pipeline · Realtor.com</span><br>
+        <span class="tp">$</span> <span class="tok">git push → CI triggered</span><br>
+        <span class="thd">[SAST]</span> <span class="tok">✓ 0 Critical</span><br>
+        <span class="thd">[SCA ]</span> <span class="twa">⚠ CVSS:9.8 → BLOCKED</span><br>
+        <span class="thd">[DAST]</span> <span class="ter">✗ XSS found → alert sent</span><br>
+        <span class="thd">[SBOM]</span> <span class="tok">✓ CycloneDX archived</span><br>
+        <span class="tdm">5 days → &lt;5 min detection</span><br>
+        <span class="tp">$</span>&nbsp;<span class="tcur"></span>
       </div>
     </div>
-  </nav>
+  </div>
+</section>
 
-  <!-- ── HERO ──────────────────────────────────────────── -->
-  <section id="home" class="hero">
-    <div class="hero-grid-bg"></div>
-    <div class="hero-glow"></div>
-    <div class="container hero-inner">
-      <div class="hero-terminal" id="heroTerminal">
-        <div class="terminal-bar">
-          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-          <span class="terminal-title">SecureOps Terminal — prajyot@devsecops ~$</span>
-        </div>
-        <div class="terminal-body" id="terminalBody"></div>
-      </div>
+<!-- TICKER -->
+<div class="ticker-w">
+  <div class="ticker-t">
+    <span class="ti"><span class="tt">DEVOPS</span>GitHub Actions · Jenkins · ArgoCD · Helm · Terraform</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">DEVSECOPS</span>SAST · DAST · SCA · Secrets · IaC · SBOM</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">K8S</span>EKS · RBAC · OPA · Falco · kube-bench</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">AWS</span>EKS · Lambda · RDS · S3 · CloudFormation</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">SECURITY</span>OWASP ZAP · Semgrep · Snyk · Trivy · GitLeaks</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">TEST</span>Playwright ★ · TypeScript · Cypress · Selenium</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">MONITOR</span>Prometheus · Grafana · Loki · Alertmanager</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">GITOPS</span>ArgoCD · Flux · Helm Charts · Kustomize</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">DEVOPS</span>GitHub Actions · Jenkins · ArgoCD · Helm · Terraform</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">DEVSECOPS</span>SAST · DAST · SCA · Secrets · IaC · SBOM</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">K8S</span>EKS · RBAC · OPA · Falco · kube-bench</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">AWS</span>EKS · Lambda · RDS · S3 · CloudFormation</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">SECURITY</span>OWASP ZAP · Semgrep · Snyk · Trivy · GitLeaks</span><span class="ts">◆</span>
+    <span class="ti"><span class="tt">TEST</span>Playwright ★ · TypeScript · Cypress · Selenium</span><span class="ts">◆</span>
+  </div>
+</div>
+<div class="div"></div>
 
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="pulse-dot"></span> Open to Senior / Lead DevSecOps roles globally
-        </div>
-        <h1 class="hero-name">PRAJYOT<br><span class="accent-text">FULSUNDAR</span></h1>
-        <p class="hero-role">
-          <span class="role-chip">DevSecOps Engineer</span>
-          <span class="role-chip">SDET Lead</span>
-          <span class="role-chip">Cloud Security</span>
-        </p>
-        <p class="hero-desc">
-          9+ years engineering secure, automated software delivery at scale. A rare hybrid combining
-          <strong class="g">deep SDET expertise</strong> with <strong class="b">application security</strong>
-          and <strong class="o">DevSecOps culture</strong> — across FinTech, Healthcare, Telecom & Real Estate.
-        </p>
-        <div class="hero-stats">
-          <div class="stat"><span class="stat-val">9+</span><span class="stat-lbl">Years Exp</span></div>
-          <div class="stat"><span class="stat-val">95%</span><span class="stat-lbl">Coverage</span></div>
-          <div class="stat"><span class="stat-val">−89%</span><span class="stat-lbl">Vulnerabilities</span></div>
-          <div class="stat"><span class="stat-val">96%</span><span class="stat-lbl">Pipeline Success</span></div>
-        </div>
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-primary">Get In Touch</a>
-          <a href="assets/file/Prajyot_Fulsundar_Resume.pdf" download class="btn btn-ghost">Download Resume ↓</a>
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="si">
+    <div class="s-eye rv">Who I Am</div>
+    <h2 class="s-ttl rv">ABOUT <span class="c">ME</span></h2>
+    <div class="ab-grid">
+      <div class="rl">
+        <p class="ab-p">I am <strong>Prajyot Fulsundar</strong>, a Senior DevSecOps &amp; DevOps Engineer based in Pune, India with <strong>11+ years of progressive engineering experience</strong>. My career began in 2015 building enterprise-grade test automation frameworks across Healthcare, Insurance, Wealth Management, and Telecom. By 2023, I evolved into full DevSecOps &amp; DevOps engineering — combining automation mastery with security-first engineering.</p>
+        <p class="ab-p">I architect <strong>end-to-end CI/CD security pipelines</strong>, deploy <strong>GitOps platforms on AWS EKS with ArgoCD</strong>, automate infrastructure with <strong>Terraform</strong>, and implement comprehensive observability with <strong>Prometheus + Grafana + Loki</strong>. I've personally blocked 3 Critical CVEs from reaching production, stopped 2 AWS credential exposures, and reduced vulnerability detection from 5 days to under 5 minutes.</p>
+        <p class="ab-p">As an <strong>expert Playwright + TypeScript framework architect</strong>, I led the migration of 1000+ enterprise test suites achieving 35% speed improvement and 0% regression loss. I champion shift-left security culture — running OWASP training, building automated security gates, and embedding security thinking across engineering teams.</p>
+        <div class="ab-stats">
+          <div class="as rv d1"><div class="as-n" data-count="11">0</div><div class="as-l">Years Experience</div></div>
+          <div class="as rv d2"><div class="as-n g" data-count="8">0</div><div class="as-l">Yrs QA Automation</div></div>
+          <div class="as rv d3"><div class="as-n a" data-count="2">0</div><div class="as-l">Yrs DevSecOps/DevOps</div></div>
+          <div class="as rv d4"><div class="as-n p" data-count="8">0</div><div class="as-l">Engineers Led</div></div>
         </div>
       </div>
-    </div>
-    <div class="scroll-hint"><span>scroll</span><div class="scroll-line"></div></div>
-  </section>
-
-  <!-- ── ABOUT ──────────────────────────────────────────── -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">01 — About</span>
-        <h2 class="section-title">The Hybrid Engineer</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I'm <strong>Prajyot Fulsundar</strong>, a <strong>DevSecOps Engineer</strong> who spent 9+ years
-            as an SDET before realizing I was already doing security engineering — testing auth flows,
-            validating APIs, catching timing vulnerabilities. I just wasn't calling it that.
-          </p>
-          <p>
-            That crossover is my superpower. Most security engineers don't know how to write a 
-            Playwright test suite. Most SDETs don't know how to read a CVSS score. I do both —
-            and that combination is genuinely rare in the market.
-          </p>
-          <p>
-            I've worked across <strong>FinTech</strong>, <strong>Healthcare</strong>,
-            <strong>Telecom</strong>, and <strong>Real Estate</strong> domains, building automation
-            frameworks trusted by 40,000+ users and CI/CD security pipelines that blocked critical
-            CVEs from reaching production.
-          </p>
-          <div class="about-tags">
-            <span class="tag">Playwright</span><span class="tag">Semgrep</span>
-            <span class="tag">Snyk</span><span class="tag">Trivy</span>
-            <span class="tag">OWASP ZAP</span><span class="tag">Kubernetes</span>
-            <span class="tag">AWS</span><span class="tag">GitHub Actions</span>
-            <span class="tag">TypeScript</span><span class="tag">Java</span>
-          </div>
-        </div>
-        <div class="about-cards">
-          <div class="about-card">
-            <div class="card-icon">🔐</div>
-            <h3>Security First</h3>
-            <p>Shift-left security integrated into every PR via SAST, SCA, DAST, and container scanning.</p>
-          </div>
-          <div class="about-card">
-            <div class="card-icon">🎭</div>
-            <h3>Automation Scale</h3>
-            <p>850+ Playwright tests with parallel sharding. 45 min → 8 min. Zero flakiness policy.</p>
-          </div>
-          <div class="about-card">
-            <div class="card-icon">☸️</div>
-            <h3>Cloud Native</h3>
-            <p>Kubernetes RBAC, OPA Gatekeeper, Falco runtime security across production clusters.</p>
-          </div>
-          <div class="about-card">
-            <div class="card-icon">📊</div>
-            <h3>Data Driven</h3>
-            <p>89% vulnerability reduction. 96% pipeline success rate. Every metric tied to business outcomes.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── SKILLS ─────────────────────────────────────────── -->
-  <section id="skills" class="section alt-bg">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">02 — Skills</span>
-        <h2 class="section-title">Technical Arsenal</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <div class="skill-cat-header"><span class="skill-icon">🛡️</span> Security</div>
-          <div class="skill-items">
-            <div class="skill-item"><span class="skill-name">Semgrep (SAST)</span><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Snyk (SCA)</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">OWASP ZAP (DAST)</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Trivy (Container)</span><div class="skill-bar"><div class="skill-fill" style="--pct:87%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">OWASP Top 10</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Falco / OPA</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></div>
-          </div>
-        </div>
-        <div class="skill-category">
-          <div class="skill-cat-header"><span class="skill-icon">🎭</span> Testing</div>
-          <div class="skill-items">
-            <div class="skill-item"><span class="skill-name">Playwright</span><div class="skill-bar"><div class="skill-fill" style="--pct:97%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Cypress</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Selenium WebDriver</span><div class="skill-bar"><div class="skill-fill" style="--pct:92%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Cucumber BDD</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">WebdriverIO</span><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">RestAssured</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
-          </div>
-        </div>
-        <div class="skill-category">
-          <div class="skill-cat-header"><span class="skill-icon">⚙️</span> DevOps</div>
-          <div class="skill-items">
-            <div class="skill-item"><span class="skill-name">GitHub Actions</span><div class="skill-bar"><div class="skill-fill" style="--pct:95%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Kubernetes</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Docker</span><div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Jenkins</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Terraform</span><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">ArgoCD / Helm</span><div class="skill-bar"><div class="skill-fill" style="--pct:75%"></div></div></div>
-          </div>
-        </div>
-        <div class="skill-category">
-          <div class="skill-cat-header"><span class="skill-icon">☁️</span> Cloud</div>
-          <div class="skill-items">
-            <div class="skill-item"><span class="skill-name">AWS IAM / SecurityHub</span><div class="skill-bar"><div class="skill-fill" style="--pct:82%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">AWS GuardDuty</span><div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">CloudWatch / CloudTrail</span><div class="skill-bar"><div class="skill-fill" style="--pct:78%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">TypeScript</span><div class="skill-bar"><div class="skill-fill" style="--pct:93%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Java</span><div class="skill-bar"><div class="skill-fill" style="--pct:88%"></div></div></div>
-            <div class="skill-item"><span class="skill-name">Bash / YAML</span><div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div></div>
-          </div>
+      <div class="rr">
+        <div class="dom-list">
+          <div class="dom"><div class="dom-ic">🔐</div><div><div class="dom-n">DevSecOps Engineering</div><div class="dom-s">Security Pipelines · SAST/DAST/SCA · Shift-Left · 2023–Present</div></div></div>
+          <div class="dom" style="border-left-color:var(--bl)"><div class="dom-ic">⚙️</div><div><div class="dom-n">DevOps / Platform Engineering</div><div class="dom-s">CI/CD · Docker · Kubernetes · ArgoCD · GitHub Actions · 2023–Present</div></div></div>
+          <div class="dom" style="border-left-color:var(--am)"><div class="dom-ic">☁️</div><div><div class="dom-n">Cloud Engineering (AWS)</div><div class="dom-s">EKS · Lambda · Terraform · CloudFormation · RDS · S3 · IAM</div></div></div>
+          <div class="dom" style="border-left-color:var(--gr)"><div class="dom-ic">📊</div><div><div class="dom-n">Monitoring &amp; Observability</div><div class="dom-s">Prometheus · Grafana · Loki · Alertmanager · X-Ray · CloudWatch</div></div></div>
+          <div class="dom" style="border-left-color:var(--pu)"><div class="dom-ic">🎭</div><div><div class="dom-n">QA Automation — Expert</div><div class="dom-s">Playwright ★ · TypeScript · Framework Architect · 2015–2023</div></div></div>
+          <div class="dom" style="border-left-color:var(--rd)"><div class="dom-ic">🤖</div><div><div class="dom-n">AI/LLM Security (2026)</div><div class="dom-s">OWASP LLM Top 10 · Garak · PyRIT · Prompt Injection</div></div></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+<div class="div"></div>
 
-  <!-- ── EXPERIENCE ─────────────────────────────────────── -->
-  <section id="experience" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">03 — Experience</span>
-        <h2 class="section-title">9 Years of Impact</h2>
-      </div>
-      <div class="timeline">
-
-        <div class="timeline-item" data-reveal>
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2021 — Present</div>
-          <div class="timeline-card">
-            <div class="tl-header">
-              <h3>Senior DevSecOps / Automation Lead</h3>
-              <span class="tl-company">Brillio Technology</span>
-            </div>
-            <ul class="tl-bullets">
-              <li>Architected 6-stage DevSecOps pipeline (Playwright → Semgrep → Snyk → Trivy → OWASP ZAP → ArgoCD) — blocked <strong>3 critical CVEs</strong> from production Q3 2024</li>
-              <li>Reduced production security incidents by <strong>78%</strong> via mandatory security gates on all PRs across 6 microservices</li>
-              <li>Optimized Playwright suite to 850+ tests with parallel sharding — CI time: <strong>45 min → 8 min (−82%)</strong></li>
-              <li>Kubernetes RBAC least-privilege + OPA Gatekeeper enforcement across 4 namespaces — eliminated wildcard bindings</li>
-              <li>Migrated 12 repos from hardcoded credentials to GitHub Secrets + Vault — <strong>zero exposure incidents</strong> since</li>
-            </ul>
-            <div class="tl-tags">
-              <span>Playwright</span><span>Semgrep</span><span>Snyk</span><span>Kubernetes</span><span>ArgoCD</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item" data-reveal>
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2018 — 2021</div>
-          <div class="timeline-card">
-            <div class="tl-header">
-              <h3>QA Automation Lead</h3>
-              <span class="tl-company">Brillio Technology</span>
-            </div>
-            <ul class="tl-bullets">
-              <li>Built hybrid BDD framework (Playwright + Cucumber) for FinTech payment platform — achieved <strong>95% test coverage</strong></li>
-              <li>Integrated Semgrep SAST into Jenkins as mandatory PR gate — caught <strong>34 SQL injection patterns</strong> pre-code-review</li>
-              <li>Led cross-browser automation for 3 product lines (Selenium + TestNG) across Healthcare and Telecom domains</li>
-              <li>Reduced regression cycle: <strong>5 days → 6 hours</strong> through parallel execution and CI/CD integration</li>
-            </ul>
-            <div class="tl-tags">
-              <span>Playwright</span><span>Cucumber BDD</span><span>Selenium</span><span>Jenkins</span><span>FinTech</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item" data-reveal>
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2016 — 2018</div>
-          <div class="timeline-card">
-            <div class="tl-header">
-              <h3>SDET Engineer</h3>
-              <span class="tl-company">Synechron Technology</span>
-            </div>
-            <ul class="tl-bullets">
-              <li>Built Protractor automation for Angular HealthCare portal — <strong>200K patients</strong>, 99.9% uptime SLA</li>
-              <li>Designed API test framework (RestAssured + Java) covering 300+ endpoints with JSON Schema contract validation</li>
-              <li>Shifted testing left — reduced defect leakage by <strong>65%</strong> in 6 months via early automation adoption</li>
-            </ul>
-            <div class="tl-tags">
-              <span>Protractor</span><span>RestAssured</span><span>Java</span><span>Healthcare</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ── PIPELINE ───────────────────────────────────────── -->
-  <section id="pipeline" class="section alt-bg">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">04 — Pipeline</span>
-        <h2 class="section-title">QA → DevSecOps in 6 Stages</h2>
-        <p class="section-sub">Shift-left security: every commit runs tests, security gates, and only deploys when all checks pass.</p>
-      </div>
-      <div class="pipeline-track">
-        <div class="pipeline-stage" data-stage="1">
-          <div class="stage-icon">🎭</div>
-          <div class="stage-info">
-            <div class="stage-name">Playwright E2E</div>
-            <div class="stage-tool">850 tests · 4m 12s</div>
-          </div>
-          <div class="stage-status pass">✓ PASS</div>
-          <div class="stage-detail">850 cross-browser tests (Chrome/Firefox/Safari/Mobile). Parallel sharding across 4 workers. HTML report published to GitHub Pages.</div>
-        </div>
-        <div class="pipeline-arrow">→</div>
-        <div class="pipeline-stage" data-stage="2">
-          <div class="stage-icon">🔍</div>
-          <div class="stage-info">
-            <div class="stage-name">Semgrep SAST</div>
-            <div class="stage-tool">p/owasp-top-ten · 1m 48s</div>
-          </div>
-          <div class="stage-status pass">✓ PASS</div>
-          <div class="stage-detail">12,400 lines scanned. 0 critical findings. 2 info-level warnings acknowledged via .semgrepignore policy.</div>
-        </div>
-        <div class="pipeline-arrow">→</div>
-        <div class="pipeline-stage" data-stage="3">
-          <div class="stage-icon">🛡️</div>
-          <div class="stage-info">
-            <div class="stage-name">Snyk SCA</div>
-            <div class="stage-tool">847 packages · 2m 05s</div>
-          </div>
-          <div class="stage-status warn">⚠ WARN</div>
-          <div class="stage-detail">847 packages audited. 1 HIGH CVE (CVSS 7.5) flagged. Automated upgrade PR #341 raised. Build continues with policy waiver.</div>
-        </div>
-        <div class="pipeline-arrow">→</div>
-        <div class="pipeline-stage" data-stage="4">
-          <div class="stage-icon">🐳</div>
-          <div class="stage-info">
-            <div class="stage-name">Trivy Container</div>
-            <div class="stage-tool">node:20-alpine · 0m 55s</div>
-          </div>
-          <div class="stage-status pass">✓ PASS</div>
-          <div class="stage-detail">node:20-alpine scanned. 0 CRITICAL, 0 HIGH. 3 MEDIUM in OS packages — tracked in security backlog.</div>
-        </div>
-        <div class="pipeline-arrow">→</div>
-        <div class="pipeline-stage" data-stage="5">
-          <div class="stage-icon">🌐</div>
-          <div class="stage-info">
-            <div class="stage-name">OWASP ZAP DAST</div>
-            <div class="stage-tool">Full scan · 6m 30s</div>
-          </div>
-          <div class="stage-status pass">✓ PASS</div>
-          <div class="stage-detail">Active scan on staging.myapp.com. 0 HIGH alerts. 1 informational: missing SameSite cookie attribute. Ticket raised.</div>
-        </div>
-        <div class="pipeline-arrow">→</div>
-        <div class="pipeline-stage" data-stage="6">
-          <div class="stage-icon">🚀</div>
-          <div class="stage-info">
-            <div class="stage-name">Deploy via ArgoCD</div>
-            <div class="stage-tool">K8s rolling · 1m 22s</div>
-          </div>
-          <div class="stage-status pass">✓ PASS</div>
-          <div class="stage-detail">Kubernetes rolling update. 3/3 pods healthy. Rollback snapshot created. Slack #releases notified. Lighthouse CI: 96.</div>
-        </div>
-      </div>
-
-      <div class="pipeline-yaml">
-        <div class="yaml-header">
-          <span class="yaml-title">📄 .github/workflows/devsecops-pipeline.yml</span>
-          <button class="copy-btn" id="copyYaml">Copy</button>
-        </div>
-        <pre class="yaml-code" id="yamlCode">name: DevSecOps Pipeline
-on: [push, pull_request]
-
-jobs:
-  playwright-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Install deps
-        run: npm ci
-      - name: Run Playwright Tests
-        run: npx playwright test --reporter=html
-
-  semgrep-sast:
-    runs-on: ubuntu-latest
-    container: semgrep/semgrep
-    steps:
-      - uses: actions/checkout@v4
-      - run: semgrep ci --config=p/owasp-top-ten
-
-  snyk-sca:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: snyk/actions/node@master
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        with:
-          args: --severity-threshold=high
-
-  trivy-container:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: aquasecurity/trivy-action@master
-        with:
-          image-ref: myapp:${{ github.sha }}
-          severity: CRITICAL,HIGH
-          exit-code: 1
-
-  owasp-zap-dast:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: zaproxy/action-full-scan@v0.9.0
-        with:
-          target: https://staging.myapp.com
-
-  deploy:
-    needs: [playwright-tests, semgrep-sast, snyk-sca, trivy-container, owasp-zap-dast]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy via ArgoCD
-        run: argocd app sync my-app --grpc-web</pre>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── PROJECTS ──────────────────────────────────────── -->
-  <section id="projects" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">05 — Projects</span>
-        <h2 class="section-title">Production Work</h2>
-      </div>
-      <div class="projects-grid">
-
-        <div class="project-card" data-reveal>
-          <div class="project-header">
-            <span class="project-icon">🔐</span>
+<!-- ═══ EXPERIENCE ═══ -->
+<section id="experience">
+  <div class="si">
+    <div class="s-eye rv">Professional Journey</div>
+    <h2 class="s-ttl rv">11+ YEARS OF <span class="g">IMPACT</span></h2>
+    <p class="s-sub rv">DevSecOps · DevOps · QA Automation — across Real Estate, Telecom, Healthcare, Insurance &amp; FinTech.</p>
+    <div class="ex-list">
+      <div class="ex-b rv">
+        <div class="ex-card">
+          <div class="ex-top">
             <div>
-              <h3 class="project-title">DevSecOps Testing Pipeline</h3>
-              <p class="project-sub">Playwright + SAST + SCA + DAST in GitHub Actions</p>
+              <div class="ex-role">Lead DevSecOps / DevOps &amp; QA Automation Engineer</div>
+              <div class="ex-co">Brillio Technologies Pvt. Ltd. — Pune</div>
+              <div class="ex-cli">Client: Move-Inc / Realtor.com, USA &nbsp;·&nbsp; Enterprise Real Estate Platform &nbsp;·&nbsp; Agent Listings, Transactions &amp; Analytics</div>
             </div>
-            <a href="https://github.com/prajyotfulsundar/devsecops-pipeline" target="_blank" class="project-link" aria-label="GitHub">↗</a>
+            <div class="ex-pr">
+              <div class="ex-dt">Oct 2023 – Present</div>
+              <div class="ex-du">2+ Years · DevSecOps + DevOps</div>
+            </div>
           </div>
-          <div class="project-metrics">
-            <div class="metric"><span class="metric-val" style="color:#00ff88">−78%</span><span class="metric-lbl">Security Incidents</span></div>
-            <div class="metric"><span class="metric-val" style="color:#00cfff">850+</span><span class="metric-lbl">Playwright Tests</span></div>
-            <div class="metric"><span class="metric-val" style="color:#ff6b35">3 CVEs</span><span class="metric-lbl">Blocked in Q3 2024</span></div>
+          <div class="ex-wins">
+            <div class="win">50% regression time reduction</div>
+            <div class="win">3 Critical CVEs blocked pre-prod</div>
+            <div class="win">2 AWS credential exposures stopped</div>
+            <div class="win">5 days → &lt;5 min detection</div>
+            <div class="win">100% OWASP header compliance</div>
+            <div class="win">8 repos pipeline-hardened</div>
           </div>
-          <p class="project-desc">Architected full DevSecOps pipeline integrating Playwright E2E, Semgrep SAST, Snyk SCA, Trivy container scanning, and OWASP ZAP DAST as mandatory GitHub Actions gates. Reduced CI time from 45 min to 8 min via parallel test sharding.</p>
-          <div class="project-tags">
-            <span>Playwright</span><span>Semgrep</span><span>Snyk</span><span>Trivy</span><span>OWASP ZAP</span><span>GitHub Actions</span>
+          <ul class="ex-pts">
+            <li>Architected <strong>7-stage GitHub Actions DevSecOps pipeline</strong>: Semgrep SAST → Snyk SCA → GitLeaks Secrets → Trivy Container+SBOM → Checkov IaC → OWASP ZAP DAST → Slack alert. Deployed across 8 production repos. Detection time: 5 days → under 5 minutes.</li>
+            <li>Built <strong>automated DAST framework (Playwright + OWASP ZAP)</strong> — detected Stored XSS in listing descriptions, IDOR in payment API, and insecure session cookie flags — all blocked pre-production.</li>
+            <li>Deployed <strong>OWASP API Top 10 (2023) automated test suite</strong> (Playwright API + Newman) — discovered critical BOLA in /api/orders exposing cross-user financial records. Patched before production release.</li>
+            <li>Implemented <strong>GitLeaks pre-commit hooks + CI secrets scanning</strong> across 8 repos — prevented 2 AWS API key exposures before remote push. PR checks block merges on detected secrets.</li>
+            <li>Configured <strong>Docker hardening</strong>: non-root users (UID 10001), distroless base images, read-only filesystems, dropped Linux capabilities — CIS Docker Benchmark aligned. Integrated Trivy image scan in pipeline.</li>
+            <li>Integrated <strong>CycloneDX SBOM generation</strong> (Syft + Grype) per build — archived for software supply chain transparency and compliance audit trail.</li>
+            <li>Performed <strong>STRIDE threat modeling</strong> for 6 microservices — DFDs, attack surface analysis, risk register, top-5 mitigations, integrated into Jira sprint backlog.</li>
+            <li>Enforced <strong>OWASP security headers</strong> (CSP, HSTS, X-Frame-Options, Referrer-Policy, Permissions-Policy) as automated Playwright regression — 100% compliance across 12 microservices tracked in CI.</li>
+            <li>Led <strong>Security Champion program</strong>: weekly OWASP sessions, secrets hygiene workshops, secure code review checklists, gamified security dashboards.</li>
+            <li><strong>GitOps &amp; DevOps:</strong> Terraform IaC for AWS infrastructure, ArgoCD GitOps deployments, Kubernetes RBAC policies, Falco runtime security rules, Helm chart packaging, Prometheus + Grafana monitoring.</li>
+          </ul>
+          <div class="ex-tags">
+            <span class="pl pa">GitHub Actions</span><span class="pl pa">Playwright</span><span class="pl pa">OWASP ZAP</span>
+            <span class="pl pg">Semgrep</span><span class="pl pg">Snyk</span><span class="pl pg">Trivy</span>
+            <span class="pl pam">Checkov</span><span class="pl pam">GitLeaks</span><span class="pl pam">Terraform</span>
+            <span class="pl pb">Docker</span><span class="pl pb">Kubernetes</span><span class="pl pb">ArgoCD</span><span class="pl pa">TypeScript</span>
           </div>
         </div>
-
-        <div class="project-card" data-reveal>
-          <div class="project-header">
-            <span class="project-icon">☸️</span>
-            <div>
-              <h3 class="project-title">Kubernetes Secure Deployment</h3>
-              <p class="project-sub">Test Gates + RBAC + OPA Gatekeeper + Falco</p>
-            </div>
-            <a href="https://github.com/prajyotfulsundar/kubernetes-security-lab" target="_blank" class="project-link" aria-label="GitHub">↗</a>
-          </div>
-          <div class="project-metrics">
-            <div class="metric"><span class="metric-val" style="color:#00ff88">0</span><span class="metric-lbl">Bad Releases (8 months)</span></div>
-            <div class="metric"><span class="metric-val" style="color:#00cfff">100%</span><span class="metric-lbl">OPA Enforcement</span></div>
-            <div class="metric"><span class="metric-val" style="color:#ff6b35">2 CVEs</span><span class="metric-lbl">Blocked by Trivy Gate</span></div>
-          </div>
-          <p class="project-desc">Designed test-gated Kubernetes deployment pipeline. Implemented OPA Gatekeeper policies blocking privileged containers across all namespaces. RBAC least-privilege model eliminating wildcard role bindings. Falco runtime threat detection.</p>
-          <div class="project-tags">
-            <span>Kubernetes</span><span>RBAC</span><span>OPA Gatekeeper</span><span>Trivy</span><span>Falco</span><span>ArgoCD</span>
-          </div>
-        </div>
-
-        <div class="project-card" data-reveal>
-          <div class="project-header">
-            <span class="project-icon">☁️</span>
-            <div>
-              <h3 class="project-title">Cloud Security Monitoring</h3>
-              <p class="project-sub">AWS IAM + GuardDuty + CloudWatch + Terraform</p>
-            </div>
-            <a href="https://github.com/prajyotfulsundar/aws-devsecops-monitoring" target="_blank" class="project-link" aria-label="GitHub">↗</a>
-          </div>
-          <div class="project-metrics">
-            <div class="metric"><span class="metric-val" style="color:#00ff88">90s</span><span class="metric-lbl">IAM Alert Latency</span></div>
-            <div class="metric"><span class="metric-val" style="color:#00cfff">−60%</span><span class="metric-lbl">MTTR Reduction</span></div>
-            <div class="metric"><span class="metric-val" style="color:#ff6b35">5 S3</span><span class="metric-lbl">Misconfigs Blocked</span></div>
-          </div>
-          <p class="project-desc">IAM privilege escalation detection via CloudTrail + CloudWatch alerting in under 90 seconds. GuardDuty + PagerDuty integration reduced MTTR by 60%. Terraform IaC scanning via tfsec blocked 5 misconfigured S3 bucket deployments.</p>
-          <div class="project-tags">
-            <span>AWS IAM</span><span>GuardDuty</span><span>CloudWatch</span><span>Terraform</span><span>tfsec</span>
-          </div>
-        </div>
-
       </div>
-    </div>
-  </section>
 
-  <!-- ── INCIDENTS ─────────────────────────────────────── -->
-  <section id="incidents" class="section alt-bg">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">06 — Incidents</span>
-        <h2 class="section-title">Real Incidents Solved</h2>
-        <p class="section-sub">Click any incident to see root cause and remediation.</p>
+      <div class="ex-b rv">
+        <div class="ex-card">
+          <div class="ex-top">
+            <div>
+              <div class="ex-role">Lead QA Automation Engineer / SDET Lead</div>
+              <div class="ex-co">Brillio Technologies Pvt. Ltd. — Pune</div>
+              <div class="ex-cli">Client: Ciena Corporation (Fusion-Core), USA &nbsp;·&nbsp; Enterprise Networking / Telecom Platform</div>
+            </div>
+            <div class="ex-pr">
+              <div class="ex-dt">Oct 2019 – Sep 2023</div>
+              <div class="ex-du" style="color:var(--bl)">4 Years · Telecom Platform</div>
+            </div>
+          </div>
+          <div class="ex-wins">
+            <div class="win">40% framework maintenance reduction</div>
+            <div class="win">200+ tests migrated — zero loss</div>
+            <div class="win">35% execution speed improvement</div>
+            <div class="win">Flaky rate 12% → 3%</div>
+          </div>
+          <ul class="ex-pts">
+            <li>Developed <strong>Playwright + TypeScript automation framework</strong> — scalable POM, reusable utility libraries, data-driven patterns, UI + API coverage across 5 product modules.</li>
+            <li>Led <strong>Protractor/WebDriverIO → Playwright migration</strong> over 8 sprints — 1000+ tests migrated, zero regression loss, 35% faster, flaky rate 12% → 3%. ZAP proxy security layer added as bonus.</li>
+            <li>Built <strong>Cypress component test suite</strong> with Jenkins CI P0/P1 quality gates — 18 months zero P0 regressions. This gate model became foundation for current DevSecOps pipeline gates.</li>
+            <li>Designed <strong>shared TypeScript utility libraries</strong> (auth, sessions, tokens, API clients) adopted across 3 teams as internal npm packages. 40% reduction in code duplication.</li>
+            <li>Established <strong>API security baseline</strong> — systematic parameterized testing identified IDOR edge case in orders endpoint, reported and fixed before production release.</li>
+            <li>Mentored <strong>3 junior engineers</strong> to mid-senior level; Agile/SAFe ceremonies, sprint planning, Jira defect lifecycle management.</li>
+          </ul>
+          <div class="ex-tags">
+            <span class="pl pa">Playwright</span><span class="pl pa">TypeScript</span>
+            <span class="pl pg">Cypress</span><span class="pl pam">WebDriverIO</span>
+            <span class="pl pb">Jenkins</span><span class="pl pb">GitHub Actions</span><span class="pl pg">Newman</span>
+          </div>
+        </div>
       </div>
-      <div class="incidents-list">
 
-        <div class="incident-row" onclick="toggleIncident(this)">
-          <div class="inc-left">
-            <span class="sev-dot critical"></span>
+      <div class="ex-b rv">
+        <div class="ex-card">
+          <div class="ex-top">
             <div>
-              <div class="inc-title">INC-001 · CI/CD Pipeline Block: Critical CVE in lodash</div>
-              <div class="inc-tags"><span>SCA</span><span>Snyk</span><span>CI/CD</span></div>
+              <div class="ex-role">Automation Engineer → Senior Automation Engineer</div>
+              <div class="ex-co">Synechron Technologies Pvt. Ltd. — Pune</div>
+              <div class="ex-cli">Multiple US Clients &nbsp;·&nbsp; Wealth Management · Healthcare · Insurance</div>
+            </div>
+            <div class="ex-pr">
+              <div class="ex-dt">Jan 2015 – Sep 2019</div>
+              <div class="ex-du" style="color:var(--am)">4 Years 9 Months &nbsp;·&nbsp; Multi-Domain</div>
             </div>
           </div>
-          <div class="inc-right">
-            <span class="sev-badge critical">CRITICAL</span>
-            <span class="inc-time">2024-11-14</span>
-            <span class="inc-toggle">+</span>
-          </div>
-          <div class="inc-detail">
-            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> Blocked 3 PRs across 2 microservices. Release delayed 4 hours.</div>
-            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Snyk detected CVE-2024-21538 in lodash@4.17.20 (CVSS 9.1). Pipeline halted at SCA stage automatically.</div>
-            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Upgraded lodash to 4.17.21. Added .snyk policy. Pipeline green in 12 minutes.</div>
-          </div>
-        </div>
-
-        <div class="incident-row" onclick="toggleIncident(this)">
-          <div class="inc-left">
-            <span class="sev-dot high"></span>
-            <div>
-              <div class="inc-title">INC-002 · Auth Token Exposed in Playwright CI Logs</div>
-              <div class="inc-tags"><span>Playwright</span><span>Secrets</span><span>SAST</span></div>
-            </div>
-          </div>
-          <div class="inc-right">
-            <span class="sev-badge high">HIGH</span>
-            <span class="inc-time">2024-07-08</span>
-            <span class="inc-toggle">+</span>
-          </div>
-          <div class="inc-detail">
-            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> 12 Playwright tests failed. Bearer token exposed in CI build logs shipped to Datadog.</div>
-            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Auth token hardcoded in Playwright test fixture. Log masking not configured on Datadog shipper.</div>
-            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Tokens migrated to GitHub Secrets. Log masking regex added. Playwright storageState used for auth.</div>
-          </div>
-        </div>
-
-        <div class="incident-row" onclick="toggleIncident(this)">
-          <div class="inc-left">
-            <span class="sev-dot critical"></span>
-            <div>
-              <div class="inc-title">INC-003 · Kubernetes Pod Compromise via Wildcard RBAC</div>
-              <div class="inc-tags"><span>Kubernetes</span><span>RBAC</span><span>OPA</span></div>
-            </div>
-          </div>
-          <div class="inc-right">
-            <span class="sev-badge critical">CRITICAL</span>
-            <span class="inc-time">2024-05-19</span>
-            <span class="inc-toggle">+</span>
-          </div>
-          <div class="inc-detail">
-            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> Privilege escalation to cluster-admin. 2 production namespaces exposed. P0 incident declared.</div>
-            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> ServiceAccount had wildcard verb on all K8s resources. OPA Gatekeeper not enforced pre-deploy.</div>
-            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Least-privilege RBAC applied. OPA Gatekeeper constraints enforced. Trivy added as mandatory pre-deploy gate. Resolved in 14 minutes.</div>
-          </div>
-        </div>
-
-        <div class="incident-row" onclick="toggleIncident(this)">
-          <div class="inc-left">
-            <span class="sev-dot medium"></span>
-            <div>
-              <div class="inc-title">INC-004 · SQL Injection Found via OWASP ZAP DAST</div>
-              <div class="inc-tags"><span>DAST</span><span>OWASP ZAP</span><span>SQL Injection</span></div>
-            </div>
-          </div>
-          <div class="inc-right">
-            <span class="sev-badge medium">MEDIUM</span>
-            <span class="inc-time">2024-03-05</span>
-            <span class="inc-toggle">+</span>
-          </div>
-          <div class="inc-detail">
-            <div class="inc-block"><strong style="color:#ff6b00">💥 Impact:</strong> P95 API latency spiked to 4.2s. OWASP ZAP active scan found SQL injection in /api/search endpoint.</div>
-            <div class="inc-block"><strong style="color:#00cfff">🔎 Root Cause:</strong> Raw SQL string concatenation in legacy search handler. DAST not present in pipeline at the time.</div>
-            <div class="inc-block"><strong style="color:#00ff88">✅ Fix Applied:</strong> Parameterized queries implemented. OWASP ZAP DAST added as mandatory pipeline stage. Playwright perf assertions added.</div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ── CERTIFICATIONS ─────────────────────────────────── -->
-  <section id="certifications" class="section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">07 — Certifications</span>
-        <h2 class="section-title">Credentials</h2>
-      </div>
-      <div class="cert-grid">
-        <div class="cert-card achieved">
-          <div class="cert-badge">🏆</div>
-          <div class="cert-info">
-            <h3>ISTQB Foundation Level</h3>
-            <p>International Software Testing Qualifications Board</p>
-            <span class="cert-status achieved-tag">Achieved</span>
-          </div>
-        </div>
-        <div class="cert-card achieved">
-          <div class="cert-badge">🏆</div>
-          <div class="cert-info">
-            <h3>Playwright Certified Professional</h3>
-            <p>Microsoft / Playwright Community</p>
-            <span class="cert-status achieved-tag">Achieved</span>
-          </div>
-        </div>
-        <div class="cert-card target">
-          <div class="cert-badge">🎯</div>
-          <div class="cert-info">
-            <h3>AWS Certified Security – Specialty</h3>
-            <p>Amazon Web Services</p>
-            <span class="cert-status target-tag">In Progress</span>
-          </div>
-        </div>
-        <div class="cert-card target">
-          <div class="cert-badge">🎯</div>
-          <div class="cert-info">
-            <h3>CKS — Kubernetes Security Specialist</h3>
-            <p>Cloud Native Computing Foundation</p>
-            <span class="cert-status target-tag">Target 2025</span>
-          </div>
-        </div>
-        <div class="cert-card target">
-          <div class="cert-badge">🎯</div>
-          <div class="cert-info">
-            <h3>CDP — Certified DevSecOps Professional</h3>
-            <p>Practical DevSecOps</p>
-            <span class="cert-status target-tag">Target 2025</span>
-          </div>
-        </div>
-        <div class="cert-card target">
-          <div class="cert-badge">🎯</div>
-          <div class="cert-info">
-            <h3>OSCP — Offensive Security</h3>
-            <p>Offensive Security Certified Professional</p>
-            <span class="cert-status target-tag">Target 2026</span>
+          <ul class="ex-pts">
+            <li><strong style="color:var(--ac)">Atria-CFS — Wealth Management, USA (Jan 2018–Sep 2019):</strong> Protractor + TypeScript + Cucumber BDD. POM architecture, full regression suite. Boundary testing caught 2 auth session edge cases preventing user data exposure.</li>
+            <li><strong style="color:var(--ac)">DaVita Rx — Healthcare, USA (Mar 2016–Dec 2017):</strong> Selenium + Java + Cucumber across patient, pharmacy &amp; admin portals. Factory + inheritance pattern; 60% code duplication reduction. Negative testing caught reflected XSS in prescription search — patched pre-release.</li>
+            <li><strong style="color:var(--ac)">Asurion iCare — Insurance, USA (Mar 2015–Feb 2016):</strong> Selenium WebDriver + Java cross-browser automation for device insurance claim workflows. HP ALM + Jira defect tracking, stakeholder reporting.</li>
+          </ul>
+          <div class="ex-tags">
+            <span class="pl pam">Selenium WebDriver</span><span class="pl pam">Java</span>
+            <span class="pl pa">Protractor</span><span class="pl pa">TypeScript</span>
+            <span class="pl pg">Cucumber</span><span class="pl pg">BDD/Gherkin</span>
+            <span class="pl pp">HP ALM</span><span class="pl pp">Jira</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+<div class="div"></div>
 
-  <!-- ── CONTACT ────────────────────────────────────────── -->
-  <section id="contact" class="section alt-bg">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">08 — Contact</span>
-        <h2 class="section-title">Let's Build Something Secure</h2>
-        <p class="section-sub">Open to Senior / Lead DevSecOps roles globally. Available for freelance security consulting.</p>
+<!-- ═══ CLIENTS ═══ -->
+<section id="clients">
+  <div class="si">
+    <div class="s-eye rv">Clients &amp; Partners</div>
+    <h2 class="s-ttl rv">EXPERIENCE WITH <span class="c">GLOBAL CLIENTS</span></h2>
+    <div class="cli-grid">
+      <div class="cli rv d1"><div class="cli-logo"><img src="https://unavatar.io/realtor.com" alt="Realtor.com" onerror="this.parentNode.innerHTML='🏠'"/></div><div class="cli-name">Realtor.com</div><div class="cli-role">DevSecOps · DevOps · Real Estate</div></div>
+      <div class="cli rv d2"><div class="cli-logo"><img src="https://unavatar.io/ciena.com" alt="Ciena" onerror="this.parentNode.innerHTML='📡'"/></div><div class="cli-name">Ciena Corporation</div><div class="cli-role">QA Automation · Telecom/Networking</div></div>
+      <div class="cli rv d3"><div class="cli-logo" style="font-size:1.8rem">💰</div><div class="cli-name">Atria-CFS</div><div class="cli-role">QA Automation · Wealth Management</div></div>
+      <div class="cli rv d4"><div class="cli-logo"><img src="https://unavatar.io/davita.com" alt="DaVita" onerror="this.parentNode.innerHTML='🏥'"/></div><div class="cli-name">DaVita Rx</div><div class="cli-role">QA Automation · Healthcare</div></div>
+      <div class="cli rv d1"><div class="cli-logo"><img src="https://unavatar.io/asurion.com" alt="Asurion" onerror="this.parentNode.innerHTML='📱'"/></div><div class="cli-name">Asurion iCare</div><div class="cli-role">QA Automation · Insurance</div></div>
+      <div class="cli rv d2"><div class="cli-logo"><img src="https://unavatar.io/brillio.com" alt="Brillio" onerror="this.parentNode.innerHTML='💡'"/></div><div class="cli-name">Brillio Technologies</div><div class="cli-role">Employer · Global IT Consulting</div></div>
+      <div class="cli rv d3"><div class="cli-logo"><img src="https://unavatar.io/synechron.com" alt="Synechron" onerror="this.parentNode.innerHTML='🔷'"/></div><div class="cli-name">Synechron Technologies</div><div class="cli-role">Employer · IT Consulting</div></div>
+      <div class="cli rv d4"><div class="cli-logo" style="font-size:1.5rem;color:var(--ac)"><i class="fa-solid fa-shield-halved"></i></div><div class="cli-name">OWASP / Labs</div><div class="cli-role">DVWA · WebGoat · ZAP Labs</div></div>
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ SKILLS ═══ -->
+<section id="skills">
+  <div class="si">
+    <div class="s-eye rv">Technical Expertise</div>
+    <h2 class="s-ttl rv">CORE <span class="c">SKILL</span> DOMAINS</h2>
+    <div class="sk-grid">
+      <div class="sk rv d1">
+        <div class="sk-ic">🔐</div>
+        <div class="sk-nm">DevSecOps</div>
+        <div class="sk-sb">Primary · 2023–Present · Production-Proven</div>
+        <div class="sk-tags">
+          <span class="stg">GitHub Actions</span><span class="stg">OWASP ZAP</span><span class="stg">Semgrep</span><span class="stg">CodeQL</span>
+          <span class="stg">Snyk</span><span class="stg">Trivy</span><span class="stg">GitLeaks</span><span class="stg">truffleHog</span>
+          <span class="stg">Checkov</span><span class="stg">tfsec</span><span class="stg">Syft + Grype</span><span class="stg">CycloneDX SBOM</span>
+          <span class="stg">SARIF</span><span class="stg">Burp Suite</span><span class="stg">CVSS 3.1</span><span class="stg">STRIDE / PASTA</span>
+        </div>
       </div>
-      <div class="contact-grid">
-        <div class="contact-card">
-          <div class="contact-icon">✉️</div>
-          <div class="contact-label">Email</div>
-          <a href="mailto:prajyot.fulsundar14@gmail.com" class="contact-val">prajyot.fulsundar14@gmail.com</a>
-          <a href="mailto:mail2prajyotfulsundar@gmail.com" class="contact-val">mail2prajyotfulsundar@gmail.com</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-icon">🔗</div>
-          <div class="contact-label">LinkedIn</div>
-          <a href="https://www.linkedin.com/in/prajyot-fulsundar-b9893b78/" target="_blank" class="contact-val">linkedin.com/in/prajyot-fulsundar</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-icon">🐙</div>
-          <div class="contact-label">GitHub</div>
-          <a href="https://github.com/prajyot7" target="_blank" class="contact-val">github.com/prajyot7</a>
-        </div>
-        <div class="contact-card">
-          <div class="contact-icon">📍</div>
-          <div class="contact-label">Location</div>
-          <span class="contact-val">Pune, India · Open to Remote </span>
+      <div class="sk b rv d2">
+        <div class="sk-ic">⚙️</div>
+        <div class="sk-nm">DevOps &amp; Platform</div>
+        <div class="sk-sb">Production · 2023–Present</div>
+        <div class="sk-tags">
+          <span class="stg">GitHub Actions</span><span class="stg">Jenkins</span><span class="stg">CircleCI</span>
+          <span class="stg">Docker</span><span class="stg">Kubernetes</span><span class="stg">Helm</span>
+          <span class="stg">ArgoCD (GitOps)</span><span class="stg">Terraform</span><span class="stg">Kustomize</span>
+          <span class="stg">AWS CloudFormation</span><span class="stg">AWS SAM</span><span class="stg">Flux CD</span>
         </div>
       </div>
-      <div class="contact-cta">
-        <a href="mailto:mail2prajyotfulsundar@gmail.com" class="btn btn-primary btn-large">Get In Touch →</a>
-        <a href="mailto:prajyot.fulsundar14@gmail.com" class="btn btn-primary btn-large">Get In Touch →</a>
+      <div class="sk g rv d3">
+        <div class="sk-ic">🎭</div>
+        <div class="sk-nm">Test Automation</div>
+        <div class="sk-sb">Expert · 9+ Years · Framework Architect</div>
+        <div class="sk-tags">
+          <span class="stg">Playwright ★</span><span class="stg">TypeScript</span><span class="stg">JavaScript</span>
+          <span class="stg">Cypress</span><span class="stg">Selenium WebDriver</span><span class="stg">WebDriverIO</span>
+          <span class="stg">Protractor (legacy)</span><span class="stg">Cucumber / Gherkin</span><span class="stg">BDD</span>
+          <span class="stg">POM Architecture</span><span class="stg">Newman</span><span class="stg">Java</span><span class="stg">API Testing</span>
+        </div>
+      </div>
+      <div class="sk a rv d1">
+        <div class="sk-ic">☁️</div>
+        <div class="sk-nm">Cloud (AWS)</div>
+        <div class="sk-sb">Production + 2026 Focus</div>
+        <div class="sk-tags">
+          <span class="stg">AWS EKS</span><span class="stg">AWS Lambda</span><span class="stg">API Gateway</span>
+          <span class="stg">RDS / DynamoDB</span><span class="stg">S3 / CloudFront</span><span class="stg">IAM</span>
+          <span class="stg">GuardDuty</span><span class="stg">Security Hub</span><span class="stg">CloudTrail</span>
+          <span class="stg">Prowler</span><span class="stg">AWS WAF</span><span class="stg">Secrets Manager</span>
+        </div>
+      </div>
+      <div class="sk rv d2">
+        <div class="sk-ic">📊</div>
+        <div class="sk-nm">Monitoring &amp; Observability</div>
+        <div class="sk-sb">Production · Full-Stack Observability</div>
+        <div class="sk-tags">
+          <span class="stg">Prometheus</span><span class="stg">Grafana</span><span class="stg">Loki</span>
+          <span class="stg">Alertmanager</span><span class="stg">Jaeger</span><span class="stg">OpenTelemetry</span>
+          <span class="stg">AWS CloudWatch</span><span class="stg">AWS X-Ray</span><span class="stg">PagerDuty</span>
+          <span class="stg">DataDog</span><span class="stg">Slack Alerting</span>
+        </div>
+      </div>
+      <div class="sk p rv d3">
+        <div class="sk-ic">🔩</div>
+        <div class="sk-nm">Languages &amp; Tools</div>
+        <div class="sk-sb">Full Engineering Stack</div>
+        <div class="sk-tags">
+          <span class="stg">TypeScript ★</span><span class="stg">JavaScript</span><span class="stg">Java</span>
+          <span class="stg">Python</span><span class="stg">Bash / Shell</span><span class="stg">YAML / JSON</span>
+          <span class="stg">HCL (Terraform)</span><span class="stg">Git</span><span class="stg">MySQL</span>
+          <span class="stg">PostgreSQL</span><span class="stg">REST APIs</span><span class="stg">Agile / SAFe</span>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+<div class="div"></div>
 
-  <!-- ── FOOTER ─────────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <span class="nav-logo">⬡ PF<span class="accent">.sec</span></span>
-        <p>DevSecOps Engineer · Top 1% Global Security Talent<br>SDET + Security Hybrid · Pune, India</p>
+<!-- ═══ PROJECTS ═══ -->
+<section id="projects">
+  <div class="si">
+    <div class="s-eye rv">GitHub Portfolio</div>
+    <h2 class="s-ttl rv">PRODUCTION-READY <span class="g">PROJECTS</span></h2>
+    <p class="s-sub rv">10 production-grade repositories — all live on <a href="https://github.com/prajyotfulsundar" style="color:var(--ac);font-weight:700" target="_blank" rel="noopener">github.com/prajyotfulsundar</a></p>
+    <div class="pf-row rv">
+      <div class="pfb on" onclick="fp('all',this)">All (10)</div>
+      <div class="pfb" onclick="fp('dso',this)">DevSecOps</div>
+      <div class="pfb" onclick="fp('dop',this)">DevOps / Cloud</div>
+      <div class="pfb" onclick="fp('auto',this)">Automation</div>
+    </div>
+    <div class="pj-grid" id="pg">
+
+      <div class="pj rv d1" data-c="dso">
+        <div class="pj-badge pfl">FLAGSHIP</div>
+        <div class="pj-ic">🔧</div>
+        <div class="pj-nm">devsecops-pipeline-template</div>
+        <div class="pj-desc">Production 7-stage GitHub Actions security pipeline deployed across 8 repos at Realtor.com. Secrets → SAST → SCA → Container+SBOM → IaC → DAST → Slack. Critical/High auto-block deployment.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">Stage 1: GitLeaks + truffleHog secrets scan</span><br>
+          <span style="color:var(--ac)">Stage 2-3: Semgrep SAST + Snyk/Trivy SCA</span><br>
+          <span style="color:var(--gr)">Stage 4-5: Trivy container + Checkov IaC</span><br>
+          <span style="color:var(--am)">Stage 6-7: ZAP DAST + Slack [BLOCK on Critical]</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">7</div><div class="pm-k">Stages</div></div>
+          <div class="pm"><div class="pm-v">&lt;5m</div><div class="pm-k">Detect</div></div>
+          <div class="pm"><div class="pm-v">8</div><div class="pm-k">Repos</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pa">GitHub Actions</span><span class="pl pa">Semgrep</span><span class="pl pa">Snyk</span><span class="pl pg">Trivy</span><span class="pl pam">Checkov</span><span class="pl pr">OWASP ZAP</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/devsecops-pipeline-template" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
       </div>
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+
+      <div class="pj rv d2" data-c="dop">
+        <div class="pj-badge pnw">PRODUCTION</div>
+        <div class="pj-ic">⎈</div>
+        <div class="pj-nm">k8s-gitops-platform</div>
+        <div class="pj-desc">GitOps platform on AWS EKS via ArgoCD + GitHub Actions. Terraform-provisioned with OPA Gatekeeper, Falco runtime security, kube-bench CIS. Zero-downtime deployments, auto-sync every 3 min.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">Terraform → AWS EKS → ECR → ArgoCD</span><br>
+          <span style="color:var(--gr)">OPA Gatekeeper policies enforced</span><br>
+          <span style="color:var(--gr)">Falco runtime threat detection active</span><br>
+          <span style="color:var(--am)">kube-bench: 68% → 94% CIS score</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">94%</div><div class="pm-k">CIS Score</div></div>
+          <div class="pm"><div class="pm-v">4m</div><div class="pm-k">Deploy</div></div>
+          <div class="pm"><div class="pm-v">0</div><div class="pm-k">Downtime</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pb">AWS EKS</span><span class="pl pb">ArgoCD</span><span class="pl pb">Terraform</span><span class="pl pg">OPA</span><span class="pl pa">Falco</span><span class="pl pa">Trivy</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/k8s-gitops-platform" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
       </div>
-      <div class="footer-copy">
-        © 2025 Prajyot Fulsundar. Built with pure HTML/CSS/JS · Hosted on GitHub Pages · Lighthouse 97+
+
+      <div class="pj rv d3" data-c="dop">
+        <div class="pj-badge pnw">PRODUCTION</div>
+        <div class="pj-ic">☁️</div>
+        <div class="pj-nm">aws-serverless-devsecops</div>
+        <div class="pj-desc">Full DevSecOps pipeline for serverless AWS apps. Lambda + API Gateway + DynamoDB + SAM/CloudFormation. GitHub Actions CI/CD with SAST, SCA, Secrets, and ZAP DAST on every deployment to staging.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">Lambda + API Gateway + DynamoDB (encrypted)</span><br>
+          <span style="color:var(--gr)">AWS WAF: OWASP managed rules enabled</span><br>
+          <span style="color:var(--gr)">Secrets Manager: zero hardcoded credentials</span><br>
+          <span style="color:var(--am)">Cold start p99: 850ms → 220ms (X-Ray)</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">0</div><div class="pm-k">Hardcoded Creds</div></div>
+          <div class="pm"><div class="pm-v">WAF</div><div class="pm-k">OWASP Rules</div></div>
+          <div class="pm"><div class="pm-v">100%</div><div class="pm-k">SQLi Blocked</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pb">AWS Lambda</span><span class="pl pb">API Gateway</span><span class="pl pb">CloudFormation</span><span class="pl pa">AWS WAF</span><span class="pl pa">ZAP</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/aws-serverless-devsecops" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d1" data-c="dop">
+        <div class="pj-badge pnw">PRODUCTION</div>
+        <div class="pj-ic">📊</div>
+        <div class="pj-nm">monitoring-observability-stack</div>
+        <div class="pj-desc">Production observability: Prometheus + Grafana + Loki + Alertmanager. Pre-built dashboards for DevSecOps metrics, K8s security, SLO burn rates. Docker Compose local + Helm K8s. Falco security metrics integrated.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">5 pre-built Grafana dashboards</span><br>
+          <span style="color:var(--gr)">Falco security metrics → Prometheus</span><br>
+          <span style="color:var(--gr)">SLO dashboard: 99.9% availability tracking</span><br>
+          <span style="color:var(--am)">P0 alerts → PagerDuty + Slack</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">5</div><div class="pm-k">Dashboards</div></div>
+          <div class="pm"><div class="pm-v">99.9%</div><div class="pm-k">SLO Track</div></div>
+          <div class="pm"><div class="pm-v">P0</div><div class="pm-k">Alerting</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pg">Prometheus</span><span class="pl pg">Grafana</span><span class="pl pg">Loki</span><span class="pl pa">Alertmanager</span><span class="pl pb">Helm</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/monitoring-observability-stack" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d2" data-c="dop">
+        <div class="pj-badge pnw">PRODUCTION</div>
+        <div class="pj-ic">🏗️</div>
+        <div class="pj-nm">infrastructure-as-code-aws</div>
+        <div class="pj-desc">Multi-environment AWS IaC with Terraform. VPC, EKS, RDS, S3, IAM modules. Dev/Staging/Prod environments. Checkov security scan in CI. Manual approval gate for prod. 97% AWS Config compliance.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">modules: vpc · eks · rds · s3 · iam</span><br>
+          <span style="color:var(--ac)">environments: dev · staging · prod</span><br>
+          <span style="color:var(--gr)">Checkov: 0 Critical/High in prod</span><br>
+          <span style="color:var(--am)">Cost: 35% saved via reserved instances</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">97%</div><div class="pm-k">AWS Config</div></div>
+          <div class="pm"><div class="pm-v">8m</div><div class="pm-k">Provision</div></div>
+          <div class="pm"><div class="pm-v">35%</div><div class="pm-k">Cost Save</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pb">Terraform</span><span class="pl pb">AWS EKS</span><span class="pl pb">RDS</span><span class="pl pam">Checkov</span><span class="pl pa">GitHub Actions</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/infrastructure-as-code-aws" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d3" data-c="dso">
+        <div class="pj-badge pfl">FLAGSHIP</div>
+        <div class="pj-ic">🔍</div>
+        <div class="pj-nm">playwright-security-scanner</div>
+        <div class="pj-desc">Automated OWASP Top 10 test suite with ZAP proxy. SQLi (classic/blind/time-based), XSS (stored/reflected/DOM), CSRF, IDOR, JWT attacks, brute force, session fixation, security headers. SARIF to GitHub Security.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">A01 IDOR/BFLA · A02 Crypto · A03 Injection</span><br>
+          <span style="color:var(--ac)">A04 Design · A05 Config · A07 Auth</span><br>
+          <span style="color:var(--gr)">A08 Integrity · A09 Logging · A10 SSRF</span><br>
+          <span style="color:var(--gr)">ZAP active scan + SARIF output</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">10</div><div class="pm-k">OWASP Risks</div></div>
+          <div class="pm"><div class="pm-v">ZAP</div><div class="pm-k">Proxy</div></div>
+          <div class="pm"><div class="pm-v">SARIF</div><div class="pm-k">Output</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pam">TypeScript</span><span class="pl pam">Playwright</span><span class="pl pr">OWASP ZAP</span><span class="pl pg">SARIF</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/playwright-security-scanner" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d1" data-c="dso">
+        <div class="pj-badge pfl">FLAGSHIP</div>
+        <div class="pj-ic">🔌</div>
+        <div class="pj-nm">api-security-test-suite</div>
+        <div class="pj-desc">Full OWASP API Top 10 (2023) via Playwright API + Newman. BOLA, BFLA, broken auth, mass assignment, rate limiting, SSRF, JWT attacks. CI-gated. Caught BOLA in /api/orders at Realtor.com — production.</div>
+        <div class="pj-meta">
+          <span style="color:var(--gr)">API1 BOLA ✓  API2 Auth ✓  API3 BOPLA ✓</span><br>
+          <span style="color:var(--gr)">API4 Rate ✓  API5 BFLA ✓  API7 SSRF ✓</span><br>
+          <span style="color:var(--ac)">All 10 risks covered · Newman CI gate</span><br>
+          <span style="color:var(--rd)">BOLA caught in production → patched</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">10</div><div class="pm-k">API Risks</div></div>
+          <div class="pm"><div class="pm-v">BOLA</div><div class="pm-k">Caught Live</div></div>
+          <div class="pm"><div class="pm-v">CI</div><div class="pm-k">Gated</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pam">Playwright API</span><span class="pl pa">Newman</span><span class="pl pam">TypeScript</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/api-security-test-suite" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d2" data-c="dso">
+        <div class="pj-badge pcs">PENTEST</div>
+        <div class="pj-ic">📋</div>
+        <div class="pj-nm">webapp-vuln-assessment</div>
+        <div class="pj-desc">Professional pentest report: 9 findings (3 Critical, 2 High) with CVSS 3.1 scores, PoC exploits, and remediation code. Tools: Burp Suite Pro, sqlmap, Nikto, Metasploit, OWASP ZAP.</div>
+        <div class="pj-meta">
+          <span style="color:var(--rd)">F1 SQLi CVSS:9.8 · F2 RCE CVSS:9.0</span><br>
+          <span style="color:var(--rd)">F3 OS Command Injection CVSS:9.8</span><br>
+          <span style="color:var(--am)">F4 Stored XSS 7.4 · F5 IDOR 8.1</span><br>
+          <span style="color:var(--ac)">Each: PoC exploit + fixed code provided</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">9</div><div class="pm-k">Findings</div></div>
+          <div class="pm"><div class="pm-v">3</div><div class="pm-k">Critical</div></div>
+          <div class="pm"><div class="pm-v">9.8</div><div class="pm-k">Top CVSS</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pr">Burp Suite</span><span class="pl pr">sqlmap</span><span class="pl pa">OWASP ZAP</span><span class="pl pa">CVSS 3.1</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/webapp-vuln-assessment" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d3" data-c="dop">
+        <div class="pj-badge pnw">NEW 2026</div>
+        <div class="pj-ic">☁️</div>
+        <div class="pj-nm">cloud-security-posture</div>
+        <div class="pj-desc">AWS CSPM with Prowler, Terraform + Checkov IaC scan, K8s kube-bench CIS, OPA Gatekeeper admission, Falco runtime rules + Slack alerting. Full compliance audit dashboard.</div>
+        <div class="pj-meta">
+          <span style="color:var(--ac)">Prowler → AWS Security Hub findings</span><br>
+          <span style="color:var(--ac)">k8s/rbac-policies.yaml → OPA enforced</span><br>
+          <span style="color:var(--gr)">Falco rules → runtime threat alerts</span><br>
+          <span style="color:var(--gr)">terraform/main.tf → Checkov CI scan</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">47+</div><div class="pm-k">CIS Checks</div></div>
+          <div class="pm"><div class="pm-v">OPA</div><div class="pm-k">Policies</div></div>
+          <div class="pm"><div class="pm-v">Falco</div><div class="pm-k">Runtime</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pam">AWS</span><span class="pl pa">Prowler</span><span class="pl pg">Checkov</span><span class="pl pg">Terraform</span><span class="pl pp">OPA</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/cloud-security-posture" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+      <div class="pj rv d1" data-c="auto">
+        <div class="pj-badge pcs">CASE STUDY</div>
+        <div class="pj-ic">🔄</div>
+        <div class="pj-nm">playwright-protractor-migration</div>
+        <div class="pj-desc">Enterprise Protractor → Playwright migration for Ciena Fusion-Core. 200+ tests across 8 sprints — zero regression, 35% faster, flaky 12% → 3%. ZAP security layer added as bonus.</div>
+        <div class="pj-meta">
+          <span style="color:var(--am)">Before: 45min · 12% flaky · Chrome only</span><br>
+          <span style="color:var(--gr)">After:  29min · 3% flaky · 3 browsers</span><br>
+          <span style="color:var(--ac)">Security coverage: None → ZAP proxy</span><br>
+          <span style="color:var(--gr)">0 regression loss across 200+ tests</span>
+        </div>
+        <div class="pj-mets">
+          <div class="pm"><div class="pm-v">200+</div><div class="pm-k">Tests</div></div>
+          <div class="pm"><div class="pm-v">35%</div><div class="pm-k">Faster</div></div>
+          <div class="pm"><div class="pm-v">0</div><div class="pm-k">Loss</div></div>
+        </div>
+        <div class="pj-stack"><span class="pl pam">Playwright</span><span class="pl pa">TypeScript</span><span class="pl pam">Protractor</span><span class="pl pb">Jenkins</span></div>
+        <div class="pj-lnks"><a class="pjl" href="https://github.com/prajyotfulsundar/playwright-protractor-migration" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub ↗</a></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ VULNERABILITIES ═══ -->
+<section id="vulns">
+  <div class="si">
+    <div class="s-eye rv">Real Security Findings</div>
+    <h2 class="s-ttl rv">VULNERABILITIES <span class="b">CAUGHT &amp; FIXED</span></h2>
+    <p class="s-sub rv">Actual security vulnerabilities I personally identified and reported — from production environments and penetration test engagements. Each finding includes detection method, impact, and remediation.</p>
+    <div class="vul-grid">
+      <div class="vul rv d1">
+        <div class="vul-top"><div class="vul-sev vc">CRITICAL</div><div class="vul-cvss">CVSS: 9.8</div></div>
+        <div class="vul-nm">SQL Injection — Classic + Blind + Time-Based</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</div>
+        <div class="vul-ds">Classic, blind, and time-based SQLi confirmed in login and prescription search endpoints. Full database extraction possible. Time-based SQLi confirmed with 5s delay response.</div>
+        <div class="vul-how">🔍 Detected: sqlmap + Burp Suite Pro | 🛡 Fixed: Parameterized queries + WAF rule</div>
+        <div class="vul-tags"><span class="pl pr">DaVita Rx</span><span class="pl pa">OWASP A03</span><span class="pl pa">sqlmap</span></div>
+      </div>
+      <div class="vul rv d2">
+        <div class="vul-top"><div class="vul-sev vc">CRITICAL</div><div class="vul-cvss">CVSS: 9.0</div></div>
+        <div class="vul-nm">Remote Code Execution — File Upload Bypass</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</div>
+        <div class="vul-ds">PHP webshell execution via file upload bypassing extension validation. MIME-type validation bypass + null byte injection achieved RCE. Full server compromise demonstrated in controlled environment.</div>
+        <div class="vul-how">🔍 Detected: Burp Suite Pro + custom payload | 🛡 Fixed: Server-side validation + magic bytes check</div>
+        <div class="vul-tags"><span class="pl pr">DVWA</span><span class="pl pa">OWASP A03</span><span class="pl pa">Burp Suite</span></div>
+      </div>
+      <div class="vul rv d3">
+        <div class="vul-top"><div class="vul-sev vc">CRITICAL</div><div class="vul-cvss">CVSS: 9.8</div></div>
+        <div class="vul-nm">OS Command Injection — Ping Diagnostic Endpoint</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</div>
+        <div class="vul-ds">Unsanitized user input passed to system shell via ping/traceroute diagnostic API. Full OS command execution: <code style="font-family:var(--mono);font-size:.75rem;color:var(--rd)">; cat /etc/passwd</code> executed successfully. Chained to exfiltrate credentials.</div>
+        <div class="vul-how">🔍 Detected: Playwright automated fuzzing | 🛡 Fixed: Input allowlist + shell escaping</div>
+        <div class="vul-tags"><span class="pl pr">DVWA</span><span class="pl pa">OWASP A03</span><span class="pl pa">Playwright</span></div>
+      </div>
+      <div class="vul rv d1">
+        <div class="vul-top"><div class="vul-sev vh">HIGH</div><div class="vul-cvss">CVSS: 8.1</div></div>
+        <div class="vul-nm">BOLA — Broken Object Level Authorization (/api/orders)</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N</div>
+        <div class="vul-ds">User B accessed User A's complete order history + financial data by incrementing order ID in API path. No authorization check on individual order objects. Caught in production API security testing at Realtor.com before release.</div>
+        <div class="vul-how">🔍 Detected: Playwright API + Newman | 🛡 Fixed: Object-level authorization + UUID migration</div>
+        <div class="vul-tags"><span class="pl pam">Realtor.com</span><span class="pl pa">OWASP API1</span><span class="pl pa">Playwright API</span></div>
+      </div>
+      <div class="vul rv d2">
+        <div class="vul-top"><div class="vul-sev vh">HIGH</div><div class="vul-cvss">CVSS: 7.4</div></div>
+        <div class="vul-nm">Stored XSS — Agent Listing Description Field</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:H/A:N</div>
+        <div class="vul-ds">Malicious script stored in agent listing description field — executed on every visitor's browser. Cookie theft and session hijacking demonstrated in controlled test. Payload persisted through 3 page renders before detection.</div>
+        <div class="vul-how">🔍 Detected: Playwright + OWASP ZAP DAST | 🛡 Fixed: DOMPurify sanitization + CSP policy</div>
+        <div class="vul-tags"><span class="pl pam">Realtor.com</span><span class="pl pa">OWASP A03</span><span class="pl pa">OWASP ZAP</span></div>
+      </div>
+      <div class="vul rv d3">
+        <div class="vul-top"><div class="vul-sev vm">MEDIUM</div><div class="vul-cvss">CVSS: 6.5</div></div>
+        <div class="vul-nm">AWS Credential Exposure — Pre-Commit Detection</div>
+        <div class="vul-vec">CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N</div>
+        <div class="vul-ds">Two separate incidents: AWS API keys committed in config files about to be pushed to public GitHub repos. GitLeaks pre-commit hook detected both before remote push. Keys immediately rotated. Estimated blast radius: full S3 access + EC2 control.</div>
+        <div class="vul-how">🔍 Detected: GitLeaks pre-commit hook | 🛡 Fixed: Secrets Manager + team training</div>
+        <div class="vul-tags"><span class="pl pam">Realtor.com</span><span class="pl pa">CWE-798</span><span class="pl pa">GitLeaks</span></div>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
+<div class="div"></div>
 
-  <script src="assets/js/main.js"></script>
+<!-- ═══ RESUME ═══ -->
+<section id="resume">
+  <div class="si">
+    <div class="s-eye rv">Résumé</div>
+    <h2 class="s-ttl rv">MY <span class="c">RESUME</span></h2>
+    <p class="s-sub rv">Senior DevSecOps &amp; DevOps Engineer with 11+ years. Expert Playwright automation. Shift-Left Security Champion. Open to global remote roles.</p>
+    <div class="res-layout">
+      <div class="rl">
+        <h3>Work Experience</h3>
+        <div class="res-item">
+          <div class="res-yr">Oct 2023 – Present</div>
+          <div class="res-ttl">Lead DevSecOps / DevOps &amp; QA Automation Engineer</div>
+          <div class="res-sub">Brillio Technologies · Client: Realtor.com, USA</div>
+          <div class="res-desc">7-stage DevSecOps pipeline · Playwright + ZAP DAST · 3 Critical CVEs blocked · GitOps with ArgoCD · Terraform IaC · Prometheus + Grafana · Security Champion program</div>
+        </div>
+        <div class="res-item">
+          <div class="res-yr">Oct 2019 – Sep 2023</div>
+          <div class="res-ttl">Lead QA Automation Engineer / SDET Lead</div>
+          <div class="res-sub">Brillio Technologies · Client: Ciena Corporation, USA</div>
+          <div class="res-desc">Playwright + TypeScript framework architect · 200+ test migration · Protractor → Playwright · Zero regression · 35% speed improvement · 3 junior engineers mentored</div>
+        </div>
+        <div class="res-item">
+          <div class="res-yr">Jan 2015 – Sep 2019</div>
+          <div class="res-ttl">Automation Engineer → Senior Automation Engineer</div>
+          <div class="res-sub">Synechron Technologies · US Clients (FinTech · Healthcare · Insurance)</div>
+          <div class="res-desc">Atria-CFS (Wealth Mgmt) · DaVita Rx (Healthcare) · Asurion iCare (Insurance) · Selenium + Java + Cucumber BDD · Protractor + TypeScript</div>
+        </div>
+
+        <h3 style="margin-top:2.5rem">Education</h3>
+        <div class="res-item">
+          <div class="res-yr">2015</div>
+          <div class="res-ttl">Bachelor of Engineering — Computer Engineering</div>
+          <div class="res-sub">Pune University · Maharashtra, India</div>
+        </div>
+
+        <h3 style="margin-top:2.5rem">Certifications</h3>
+        <div class="res-item">
+          <div class="res-yr">Earned</div>
+          <div class="res-ttl">SAFe® 5 Practitioner · PortSwigger Labs · TryHackMe Jr. PenTest</div>
+          <div class="res-sub">OWASP WebGoat + DVWA (all Top 10 challenges)</div>
+        </div>
+        <div class="res-item">
+          <div class="res-yr">2025–26</div>
+          <div class="res-ttl">CEH v12 · CompTIA Security+ · AWS Security Specialty</div>
+          <div class="res-sub">Planned — in active preparation</div>
+        </div>
+
+        <div class="res-dl">
+          <a href="https://linkedin.com/in/prajyotfulsundar" class="btn ba" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+          <a href="https://github.com/prajyotfulsundar" class="btn bg" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub Portfolio</a>
+          <a href="mailto:mail2prajyotfulsundar@gmail.com?subject=Resume Request — Prajyot Fulsundar" class="btn bo"><i class="fa-solid fa-file-pdf"></i> Request Resume PDF</a>
+        </div>
+      </div>
+
+      <div class="rr">
+        <h3>Core Technical Skills</h3>
+        <div class="res-skills-grid">
+          <div>
+            <div class="rsk-cat">DevSecOps</div>
+            <div class="rsk-items">
+              <div class="rsk-item">GitHub Actions Pipelines</div>
+              <div class="rsk-item">OWASP ZAP + Playwright DAST</div>
+              <div class="rsk-item">Semgrep + CodeQL SAST</div>
+              <div class="rsk-item">Snyk + Trivy SCA</div>
+              <div class="rsk-item">GitLeaks Secrets Scanning</div>
+              <div class="rsk-item">Checkov + tfsec IaC</div>
+              <div class="rsk-item">SBOM (Syft + CycloneDX)</div>
+            </div>
+          </div>
+          <div>
+            <div class="rsk-cat">DevOps / Cloud</div>
+            <div class="rsk-items">
+              <div class="rsk-item">Kubernetes + Helm + ArgoCD</div>
+              <div class="rsk-item">Terraform + CloudFormation</div>
+              <div class="rsk-item">AWS EKS + Lambda + RDS</div>
+              <div class="rsk-item">Docker + Distroless</div>
+              <div class="rsk-item">Prometheus + Grafana + Loki</div>
+              <div class="rsk-item">Jenkins + CircleCI</div>
+              <div class="rsk-item">OPA + Falco + kube-bench</div>
+            </div>
+          </div>
+          <div>
+            <div class="rsk-cat">Test Automation</div>
+            <div class="rsk-items">
+              <div class="rsk-item">Playwright ★ (Expert)</div>
+              <div class="rsk-item">TypeScript + JavaScript</div>
+              <div class="rsk-item">Cypress + Selenium</div>
+              <div class="rsk-item">API Testing + Newman</div>
+              <div class="rsk-item">Cucumber / BDD</div>
+              <div class="rsk-item">Framework Architecture</div>
+              <div class="rsk-item">Java + Selenium WebDriver</div>
+            </div>
+          </div>
+          <div>
+            <div class="rsk-cat">Domains</div>
+            <div class="rsk-items">
+              <div class="rsk-item">Real Estate (Realtor.com)</div>
+              <div class="rsk-item">Networking/Telecom (Ciena)</div>
+              <div class="rsk-item">Wealth Management</div>
+              <div class="rsk-item">Healthcare (DaVita)</div>
+              <div class="rsk-item">Insurance (Asurion)</div>
+              <div class="rsk-item">FinTech</div>
+              <div class="rsk-item">Enterprise SaaS</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem">
+          <h3>Why Hire Me — Value Proposition</h3>
+          <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1.25rem">
+            <div style="background:var(--sur);border:1px solid var(--bor);border-left:3px solid var(--ac);padding:1.25rem">
+              <div style="font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt);margin-bottom:.4rem">💰 Salary Hike Magnet</div>
+              <div style="font-size:.9rem;color:var(--txt2);line-height:1.7">Rare dual expertise: elite automation + DevSecOps. Replaces 2 separate hires. Brings both proactive security (shift-left) and automated quality at speed. Market value: ₹40–60L+ / $80K–120K.</div>
+            </div>
+            <div style="background:var(--sur);border:1px solid var(--bor);border-left:3px solid var(--gr);padding:1.25rem">
+              <div style="font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt);margin-bottom:.4rem">🛡 Proven Security Impact</div>
+              <div style="font-size:.9rem;color:var(--txt2);line-height:1.7">3 Critical CVEs blocked pre-production. 2 AWS credential exposures stopped. BOLA vulnerability caught in production before $M data breach. Real security outcomes, not just certifications.</div>
+            </div>
+            <div style="background:var(--sur);border:1px solid var(--bor);border-left:3px solid var(--bl);padding:1.25rem">
+              <div style="font-family:var(--sans);font-weight:700;font-size:1rem;color:var(--txt);margin-bottom:.4rem">⚡ 5-Day → 5-Minute ROI</div>
+              <div style="font-size:.9rem;color:var(--txt2);line-height:1.7">Security vulnerability detection from 5 days to under 5 minutes. This kind of pipeline architecture directly reduces MTTR, accelerates release cycles, and reduces risk-adjusted release costs.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ RECOMMENDATIONS ═══ -->
+<section id="recs">
+  <div class="si">
+    <div class="s-eye rv">What Colleagues Say</div>
+    <h2 class="s-ttl rv">RECOMMENDATIONS &amp; <span class="g">REVIEWS</span></h2>
+    <div class="rec-grid">
+      <div class="rec rv d1">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"Prajyot is a rare engineer who bridges automation mastery and security engineering seamlessly. His Playwright + OWASP ZAP DAST framework became the reference architecture for our entire organization. He doesn't just write tests — he builds systems that prevent vulnerabilities from ever reaching production. An exceptional shift-left champion who elevated our entire team's security posture."</p>
+        <div class="rec-aut"><div class="rec-av">SK</div><div><div class="rec-nm">Senior Engineering Manager</div><div class="rec-ro">Engineering Leadership</div><div class="rec-co">Brillio Technologies · Realtor.com</div></div></div>
+      </div>
+      <div class="rec rv d2">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"The 7-stage DevSecOps pipeline Prajyot architected changed everything for us — vulnerability detection went from 5 days to under 5 minutes. He personally blocked 3 Critical CVEs and stopped 2 AWS credential exposures. His security champion program transformed our team's culture around secure engineering in a way that typically takes years."</p>
+        <div class="rec-aut"><div class="rec-av">PD</div><div><div class="rec-nm">Principal DevOps Engineer</div><div class="rec-ro">Platform Engineering Lead</div><div class="rec-co">Move-Inc / Realtor.com, USA</div></div></div>
+      </div>
+      <div class="rec rv d3">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"Prajyot led our Protractor-to-Playwright migration with zero regression loss and 35% speed improvement — a project others had estimated at 12+ months, he completed in 8 sprints. His TypeScript utility libraries are still actively used by 3 teams, 3 years later. Technically brilliant, an exceptional communicator, and a natural team leader."</p>
+        <div class="rec-aut"><div class="rec-av">AR</div><div><div class="rec-nm">QA Architect</div><div class="rec-ro">Test Strategy &amp; Architecture</div><div class="rec-co">Brillio Technologies · Ciena</div></div></div>
+      </div>
+      <div class="rec rv d1">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"Prajyot's API security test suite caught a BOLA vulnerability in our /api/orders endpoint that would have exposed thousands of users' financial records. He caught it in staging before it ever reached production. His automated security testing approach is production-grade, not demo-grade. This is exactly the engineer every platform team needs."</p>
+        <div class="rec-aut"><div class="rec-av">VS</div><div><div class="rec-nm">Staff Software Engineer</div><div class="rec-ro">Backend API Platform</div><div class="rec-co">Move-Inc / Realtor.com, USA</div></div></div>
+      </div>
+      <div class="rec rv d2">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"Prajyot's STRIDE threat models for our microservices were the most thorough I've reviewed — identifying attack vectors that internal security had missed. He presented findings with clear CVSS scores, mitigations, and sprint-ready tickets. His ability to translate security concepts for non-security engineers is exceptional — he makes the whole org more secure."</p>
+        <div class="rec-aut"><div class="rec-av">MK</div><div><div class="rec-nm">Solutions Architect</div><div class="rec-ro">Platform Security &amp; Architecture</div><div class="rec-co">Brillio Technologies</div></div></div>
+      </div>
+      <div class="rec rv d3">
+        <div class="rec-stars">★★★★★</div>
+        <p class="rec-txt">"In 4 years at Ciena, I watched Prajyot evolve from an elite automation engineer into a full DevSecOps practitioner without losing a step on quality. His framework standards, CI/CD gate architecture, and mentorship of junior engineers defined our engineering culture. The 3 engineers he mentored are now senior — that's real leadership impact."</p>
+        <div class="rec-aut"><div class="rec-av">NG</div><div><div class="rec-nm">Senior QA Engineer</div><div class="rec-ro">Automation Engineering</div><div class="rec-co">Brillio Technologies · Ciena</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ CERTIFICATIONS ═══ -->
+<section id="certs">
+  <div class="si">
+    <div class="s-eye rv">Credentials &amp; Learning</div>
+    <h2 class="s-ttl rv">CERTIFICATIONS &amp; <span class="b">ROADMAP</span></h2>
+    <div class="cert-grid">
+      <div>
+        <div class="cg-lbl rv">📚 In Progress — Active Hands-On Labs</div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#d45500"><div class="c-txt-logo" style="color:#fff;font-weight:800">Port<br>Swigger</div></div>
+          <div class="c-info"><div class="c-nm">PortSwigger Web Security Academy</div><div class="c-iss">All Lab Paths — SQLi · XSS · CSRF · IDOR · SSRF · JWT</div></div>
+          <div class="c-badge cb-prog">IN PROGRESS</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#1e2a3a"><div class="c-txt-logo" style="color:#0ff;font-weight:700">Try<br>HackMe</div></div>
+          <div class="c-info"><div class="c-nm">TryHackMe Jr. Penetration Tester</div><div class="c-iss">TryHackMe · Hands-on Pentest Learning Path</div></div>
+          <div class="c-badge cb-prog">IN PROGRESS</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#2d6a1f"><div class="c-txt-logo" style="color:#fff;font-size:.6rem;font-weight:700">OWASP<br>WebGoat<br>+DVWA</div></div>
+          <div class="c-info"><div class="c-nm">OWASP WebGoat + DVWA</div><div class="c-iss">All OWASP Top 10 Challenge Categories — hands-on lab</div></div>
+          <div class="c-badge cb-prog">IN PROGRESS</div>
+        </div>
+        <div style="height:1.5rem"></div>
+        <div class="cg-lbl rv">🎖️ Earned</div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#0b85df">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scaled_Agile_Inc._logo.svg/200px-Scaled_Agile_Inc._logo.svg.png" alt="SAFe" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#fff;font-weight:800>SAFe®<br>5</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">SAFe® 5 Certified Practitioner</div><div class="c-iss">Scaled Agile Framework · Scaled Agile Inc.</div></div>
+          <div class="c-badge cb-done">CERTIFIED ✓</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#7c3aed"><div class="c-txt-logo" style="color:#fff;font-weight:700">B.E.<br>Comp<br>Engg</div></div>
+          <div class="c-info"><div class="c-nm">B.E. Computer Engineering</div><div class="c-iss">Pune University · Maharashtra · India</div></div>
+          <div class="c-badge cb-done">COMPLETED</div>
+        </div>
+      </div>
+      <div>
+        <div class="cg-lbl rv">📅 Planned — 2025</div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#c00011">
+            <img src="https://www.eccouncil.org/wp-content/uploads/2022/10/CEH-logo-new.png" alt="CEH" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#fff;font-weight:800>CEH<br>v12</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">CEH v12 — Certified Ethical Hacker</div><div class="c-iss">EC-Council · Exam Target: 2025</div></div>
+          <div class="c-badge cb-plan">PLANNED 2025</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#c00a2f">
+            <img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/sitecore-images/logos/comptia-logo.svg" alt="CompTIA" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#fff;font-weight:700>CompTIA<br>Sec+</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">CompTIA Security+ SY0-701</div><div class="c-iss">CompTIA · Exam Target: 2025</div></div>
+          <div class="c-badge cb-plan">PLANNED 2025</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#f90c00">
+            <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png" alt="AWS Security" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#000;font-weight:800>AWS<br>SEC</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">AWS Certified Security Specialty</div><div class="c-iss">Amazon Web Services · 2025–26</div></div>
+          <div class="c-badge cb-plan">PLANNED 2025-26</div>
+        </div>
+        <div style="height:1.5rem"></div>
+        <div class="cg-lbl rv">🔮 Future — 2026+</div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#326ce5">
+            <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.svg" alt="CKS" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#fff;font-weight:700>CKS</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">CKS — Certified Kubernetes Security Specialist</div><div class="c-iss">CNCF · Linux Foundation · 2026</div></div>
+          <div class="c-badge cb-fut">2026</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#0d1a2e"><div class="c-txt-logo" style="color:#00ff41;font-weight:800">GIAC<br>GWEB</div></div>
+          <div class="c-info"><div class="c-nm">GIAC GWEB — Web Application Defender</div><div class="c-iss">GIAC · Future Target</div></div>
+          <div class="c-badge cb-fut">ROADMAP</div>
+        </div>
+        <div class="cert rv">
+          <div class="c-logo" style="background:#0078d4">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft" onerror="this.parentNode.innerHTML='<div class=c-txt-logo style=color:#fff;font-weight:700>MSFT<br>SC-200</div>'"/>
+          </div>
+          <div class="c-info"><div class="c-nm">Microsoft SC-200 / AI Security</div><div class="c-iss">Microsoft · GCSEA · 2026</div></div>
+          <div class="c-badge cb-fut">2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ PIPELINE ═══ -->
+<section id="pipeline">
+  <div class="si">
+    <div class="s-eye rv">CI/CD Security Architecture</div>
+    <h2 class="s-ttl rv">7-STAGE <span class="c">DEVSECOPS</span> PIPELINE</h2>
+    <p class="s-sub rv">Production-deployed at Realtor.com — <strong style="color:var(--txt)">5 days → under 5 minutes</strong> detection. Critical/High auto-blocks deployment across 8 repositories. Repo: <a href="https://github.com/prajyotfulsundar/devsecops-pipeline-template" style="color:var(--ac);font-weight:700" target="_blank">github.com/prajyotfulsundar/devsecops-pipeline-template</a></p>
+    <div class="pipe-s rv">
+      <div class="pipe-t">
+        <div class="ps"><div class="ps-n">01/07</div><div class="ps-nm">SECRETS</div><div class="ps-tools"><span class="pl pa">GitLeaks</span><span class="pl pa">truffleHog</span></div><div class="ps-ds">Pre-commit hooks + CI scanning all branches + full commit history</div><div class="ps-r">✓ 2 AWS keys stopped pre-push</div></div>
+        <div class="ps"><div class="ps-n">02/07</div><div class="ps-nm">SAST</div><div class="ps-tools"><span class="pl pa">Semgrep</span><span class="pl pa">CodeQL</span></div><div class="ps-ds">Static analysis with SARIF output to GitHub Security dashboard</div><div class="ps-r">✓ 0 Critical · SARIF synced</div></div>
+        <div class="ps"><div class="ps-n">03/07</div><div class="ps-nm">SCA</div><div class="ps-tools"><span class="pl pa">Snyk</span><span class="pl pa">Trivy</span><span class="pl pa">Dep-Check</span></div><div class="ps-ds">CVE detection in all dependencies. Critical/High blocks pipeline</div><div class="ps-r w">⚠ CVSS:9.8 → auto-blocked</div></div>
+        <div class="ps"><div class="ps-n">04/07</div><div class="ps-nm">CONTAINER</div><div class="ps-tools"><span class="pl pg">Trivy</span><span class="pl pg">Syft</span><span class="pl pg">Grype</span></div><div class="ps-ds">Docker image scan + CycloneDX SBOM per build → archived</div><div class="ps-r">✓ SBOM archived per build</div></div>
+        <div class="ps"><div class="ps-n">05/07</div><div class="ps-nm">IAC</div><div class="ps-tools"><span class="pl pam">Checkov</span><span class="pl pam">tfsec</span></div><div class="ps-ds">Terraform + K8s manifest policy scan · 47 CIS checks enforced</div><div class="ps-r">✓ 47 checks · 0 misconfigs</div></div>
+        <div class="ps"><div class="ps-n">06/07</div><div class="ps-nm">DAST</div><div class="ps-tools"><span class="pl pr">Playwright</span><span class="pl pr">OWASP ZAP</span></div><div class="ps-ds">Live OWASP Top 10 active scan on running staging environment</div><div class="ps-r e">✗ 3 Critical blocked pre-prod</div></div>
+        <div class="ps"><div class="ps-n">07/07</div><div class="ps-nm">ALERT</div><div class="ps-tools"><span class="pl pam">Slack</span><span class="pl pg">SARIF</span></div><div class="ps-ds">Slack alerts → #security-team + GitHub Security dashboard</div><div class="ps-r">✓ &lt;5 min time-to-detect</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="div"></div>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="si">
+    <div class="s-eye rv">Get In Touch</div>
+    <h2 class="s-ttl rv">LET'S <span class="c">CONNECT</span></h2>
+    <div class="con-grid">
+      <div class="rl">
+        <div class="con-box">
+          <div style="font-family:var(--mono);font-size:.75rem;color:var(--txt3);line-height:2.1;margin-bottom:1.5rem">
+            <span style="color:var(--ac)">whoami</span>     → Senior DevSecOps &amp; DevOps Engineer<br>
+            <span style="color:var(--ac)">target</span>      → Senior / Lead DevSecOps · Global Remote<br>
+            <span style="color:var(--ac)">availability</span> → <span style="color:var(--gr)">Immediately · Actively interviewing</span><br>
+            <span style="color:var(--ac)">location</span>    → Pune, India
+          </div>
+          <a href="mailto:mail2prajyotfulsundar@gmail.com" class="ci"><span class="ci-ic"><i class="fa-solid fa-envelope"></i></span><div><div class="ci-lb">Email</div><div class="ci-vl">mail2prajyotfulsundar@gmail.com</div></div></a>
+          <a href="tel:+919890118336" class="ci"><span class="ci-ic"><i class="fa-solid fa-phone"></i></span><div><div class="ci-lb">Phone</div><div class="ci-vl">+91 9890118336</div></div></a>
+          <a href="https://linkedin.com/in/prajyot-fulsundar" class="ci" target="_blank"><span class="ci-ic"><i class="fa-brands fa-linkedin-in" style="color:#0a66c2"></i></span><div><div class="ci-lb">LinkedIn</div><div class="ci-vl">in/prajyotfulsundar</div></div></a>
+          <a href="https://github.com/prajyotfulsundar14" class="ci" target="_blank"><span class="ci-ic"><i class="fa-brands fa-github"></i></span><div><div class="ci-lb">GitHub Portfolio</div><div class="ci-vl">github.com/prajyotfulsundar</div></div></a>
+          <a href="https://twitter.com/prajyotfulsundar" class="ci" target="_blank"><span class="ci-ic"><i class="fa-brands fa-x-twitter" style="color:#1d9bf0"></i></span><div><div class="ci-lb">Twitter / X</div><div class="ci-vl">@prajyotfulsundar</div></div></a>
+          <a href="https://instagram.com/prajyotfulsundar" class="ci" target="_blank"><span class="ci-ic"><i class="fa-brands fa-instagram" style="color:#e1306c"></i></span><div><div class="ci-lb">Instagram</div><div class="ci-vl">@prajyotfulsundar</div></div></a>
+          <a href="https://facebook.com/prajyotfulsundar" class="ci" target="_blank"><span class="ci-ic"><i class="fa-brands fa-facebook-f" style="color:#1877f2"></i></span><div><div class="ci-lb">Facebook</div><div class="ci-vl">prajyotfulsundar</div></div></a>
+          <div class="ci"><span class="ci-ic"><i class="fa-solid fa-location-dot" style="color:var(--ac)"></i></span><div><div class="ci-lb">Location</div><div class="ci-vl">Pune, India </div></div></div>
+          <div style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.75rem">
+            <a href="mailto:mail2prajyotfulsundar@gmail.com" class="btn ba"><i class="fa-solid fa-envelope"></i> Get In Touch</a>
+            <a href="https://linkedin.com/in/prajyot-fulsundar" class="btn bg" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="con-r rr">
+        <div class="avail-box">
+          <div class="av-dot"></div>
+          <div class="av-t">Available immediately for Senior / Lead DevSecOps roles<br><span>Remote preferred · Hybrid · Open to relocation · Actively interviewing</span></div>
+        </div>
+        <div class="tgt-box">
+          <div class="tgt-lb">// Target Roles</div>
+          <ul class="tgt-list">
+            <li>Senior DevSecOps Engineer / Lead DevSecOps</li>
+            <li>Senior DevOps / Platform Security Engineer</li>
+            <li>Security Automation Engineer</li>
+            <li>Kubernetes / Cloud Security Engineer</li>
+          </ul>
+          <div class="tgt-lb" style="margin-top:1.1rem">// Target Companies</div>
+          <ul class="tgt-list">
+            <li>FAANG · Fintech · Healthcare SaaS</li>
+            <li>Cybersecurity firms · Cloud-native companies</li>
+            <li>Enterprise SaaS with strong security culture</li>
+            <li>Global Remote first — any timezone considered</li>
+          </ul>
+        </div>
+        <div class="soc-box">
+          <div class="soc-lb" style="font-family:var(--mono);font-size:.65rem;color:var(--txt3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.85rem">Connect on Social</div>
+          <div class="soc-row">
+            <a class="soc sli" href="https://linkedin.com/in/prajyot-fulsundar" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="soc sgh" href="https://github.com/prajyotfulsundar14" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a class="soc stw" href="https://twitter.com/prajyotfulsundar" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="soc sig" href="https://instagram.com/prajyotfulsundar" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="soc sfb" href="https://facebook.com/prajyotfulsundar" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ft-l">
+    <span class="c">prajyot</span>fulsundar:~$ echo <span style="color:var(--gr)">"Shift-Left is not a phase. It's a philosophy."</span><br>
+    <span style="display:block;margin-top:.2rem">© 2026 Prajyot Fulsundar · prajyotfulsundar14.github.io · Pune, India · Built with care, zero frameworks</span>
+  </div>
+  <div class="ft-r">
+    <a href="#home">↑ Top</a>
+    <a href="https://github.com/prajyotfulsundar" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/prajyotfulsundar" target="_blank">LinkedIn</a>
+    <a href="mailto:mail2prajyotfulsundar@gmail.com">Email</a>
+  </div>
+</footer>
+
+<script>
+/* CURSOR */
+const CR=document.getElementById('cr'),RG=document.getElementById('cr-r');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;CR.style.left=mx+'px';CR.style.top=my+'px'});
+(function tr(){rx+=(mx-rx)*.11;ry+=(my-ry)*.11;RG.style.left=rx+'px';RG.style.top=ry+'px';requestAnimationFrame(tr)})();
+document.querySelectorAll('a,button,.btn,.n-hire,.pfb').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{CR.style.transform='translate(-50%,-50%) scale(1.8)';CR.style.background='var(--gr)';RG.style.width='50px';RG.style.height='50px';RG.style.borderColor='rgba(34,197,94,.5)'});
+  el.addEventListener('mouseleave',()=>{CR.style.transform='translate(-50%,-50%) scale(1)';CR.style.background='var(--ac)';RG.style.width='36px';RG.style.height='36px';RG.style.borderColor='rgba(20,184,166,.45)'});
+});
+if('ontouchstart' in window){CR.style.display='none';RG.style.display='none';document.body.style.cursor='auto'}
+
+/* PARTICLES */
+const cv=document.getElementById('bg'),cx=cv.getContext('2d');
+let W,H,PT=[];
+const rsz=()=>{W=cv.width=innerWidth;H=cv.height=innerHeight};
+rsz();window.addEventListener('resize',rsz);
+class Pt{
+  constructor(){this.reset()}
+  reset(){this.x=Math.random()*W;this.y=Math.random()*H;this.vx=(Math.random()-.5)*.18;this.vy=(Math.random()-.5)*.18;this.life=0;this.ml=.4+Math.random()*.6;this.r=Math.random()*1.3+.4;this.c=Math.random()>.5?'20,184,166':'59,130,246'}
+  tick(){this.x+=this.vx;this.y+=this.vy;this.life+=.0015;(this.life>this.ml||this.x<0||this.x>W||this.y<0||this.y>H)&&this.reset()}
+  draw(){const a=Math.sin(this.life/this.ml*Math.PI)*.4;cx.beginPath();cx.arc(this.x,this.y,this.r,0,6.28);cx.fillStyle=`rgba(${this.c},${a})`;cx.fill()}
+}
+for(let i=0;i<80;i++)PT.push(new Pt());
+(function loop(){
+  cx.clearRect(0,0,W,H);PT.forEach(p=>{p.tick();p.draw()});
+  for(let i=0;i<PT.length;i++)for(let j=i+1;j<PT.length;j++){
+    const dx=PT[i].x-PT[j].x,dy=PT[i].y-PT[j].y,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<100){cx.beginPath();cx.moveTo(PT[i].x,PT[i].y);cx.lineTo(PT[j].x,PT[j].y);cx.strokeStyle=`rgba(20,184,166,${(1-d/100)*.05})`;cx.lineWidth=.4;cx.stroke()}
+  }
+  requestAnimationFrame(loop);
+})();
+
+/* REVEAL */
+const ro=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}})},{threshold:.05});
+document.querySelectorAll('.rv,.rl,.rr').forEach(el=>ro.observe(el));
+
+/* COUNTERS */
+const co=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){
+  e.target.querySelectorAll('[data-count]').forEach(el=>{
+    const t=+el.dataset.count;let c=0;
+    const iv=setInterval(()=>{c=Math.min(c+t/55,t);el.textContent=Math.floor(c)+(c>=t?'+':'');if(c>=t)clearInterval(iv)},22);
+  });co.unobserve(e.target)}})},{threshold:.3});
+document.querySelectorAll('.h-stats,.ab-stats').forEach(s=>co.observe(s));
+
+/* NAV ACTIVE */
+const secs=document.querySelectorAll('section[id]'),nls=document.querySelectorAll('.n-links a');
+window.addEventListener('scroll',()=>{let c='';secs.forEach(s=>{if(scrollY>=s.offsetTop-80)c=s.id});nls.forEach(a=>{a.classList.toggle('active',a.getAttribute('href')==='#'+c)})},{passive:true});
+
+/* PROJECT FILTER */
+function fp(cat,btn){
+  document.querySelectorAll('.pfb').forEach(b=>b.classList.remove('on'));btn.classList.add('on');
+  document.querySelectorAll('#pg .pj').forEach(p=>{
+    const show=cat==='all'||p.dataset.c===cat;
+    p.style.transition='opacity .3s,transform .3s';
+    if(show){p.style.display='';setTimeout(()=>{p.style.opacity='1';p.style.transform=''},10)}
+    else{p.style.opacity='0';setTimeout(()=>{p.style.display='none'},300)}
+  });
+}
+
+/* TYPING */
+(function(){
+  const roles=['DevSecOps Engineer','DevOps Engineer','Playwright ★ Expert','CI/CD Security Architect','K8s + ArgoCD GitOps','Shift-Left Champion','Test Automation Lead'];
+  let ri=0,ci=0,fwd=true;
+  const el=document.getElementById('typed-txt');if(!el)return;
+  function tick(){
+    if(fwd){ci++;el.textContent=roles[ri].slice(0,ci);if(ci>=roles[ri].length){fwd=false;setTimeout(tick,2200);return}}
+    else{ci--;el.textContent=roles[ri].slice(0,ci);if(ci===0){fwd=true;ri=(ri+1)%roles.length}}
+    setTimeout(tick,fwd?90:45);
+  }
+  setTimeout(tick,1000);
+})();
+</script>
 </body>
 </html>
